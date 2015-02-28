@@ -3,7 +3,8 @@ get "/" do
 end
 
 post "/mail" do
-  Pony.mail({
+  begin
+    Pony.mail({
       to: "bowerrhys@gmail.com",
       from: params[:email],
       subject: "Inquiry from #{params[:name]}",
@@ -19,5 +20,8 @@ post "/mail" do
         domain: "localhost"
       }
     })
-  params.to_s
+  rescue
+    return "false"
+  end
+  return "true"
 end
