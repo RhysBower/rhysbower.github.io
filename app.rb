@@ -1,3 +1,8 @@
+require 'rubygems'
+require 'bundler'
+require 'sinatra'
+require 'pony'
+
 get "/" do
   erb :index
 end
