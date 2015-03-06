@@ -170,7 +170,7 @@ header .row .col-sm-4 img {
 	border-radius: 10px;
 }
 
-a {
+.link, .portfolio-link {
 	text-decoration: none;
 	color: #03A9F4;
 
@@ -180,17 +180,17 @@ a {
 	transition: all 0.25s ease;
 }
 
-a:link  {
+.link:link, .portfolio-link:link {
 	color: #03A9F4;
 }
-a:visited {
+.link:visited, .portfolio-link:visited {
 	color: #03A9F4;
 }
-a:hover {
+.link:hover, .portfolio-link:hover {
 	color: #18FFFF;
 	text-decoration: none;
 }
-a:active {
+.link:active, .portfolio-link:active {
 	color: #03A9F4;
 }
 
