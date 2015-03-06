@@ -68,7 +68,7 @@ header .row .col-sm-4 img {
 }
 
 #portfolio {
-	padding-top: 10px;
+	padding-top: 40px;
 	padding-bottom: 40px;
 	position: relative;
 	z-index: 1;
@@ -124,13 +124,15 @@ header .row .col-sm-4 img {
 
 #about {
 	background: #009688;
-	padding-top: 10px;
-	padding-bottom: 20px;
+	padding-top: 40px;
+	padding-bottom: 40px;
 }
 
 #contact {
 	position: relative;
 	z-index: 1;
+	padding-top: 40px;
+	padding-bottom: 40px;
 }
 
 .message {
@@ -144,6 +146,8 @@ header .row .col-sm-4 img {
 	padding-top: 25px;
 	padding-bottom: 25px;
 	text-align: center;
+	padding-top: 40px;
+	padding-bottom: 40px;
 }
 
 .footer-copyright {
