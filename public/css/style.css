@@ -12,6 +12,9 @@ h3 {
 	font-size: 24px;
 }
 
+.tagline {
+	font-size: 24px;
+}
 
 .navbar {
 	background: rgba(157, 197, 236, 0.7);
@@ -161,10 +164,6 @@ header .row .col-sm-4 img {
 
 .img-responsive {
 	border-radius: 10px;
-}
-
-h1, h2 {
-	text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
 a {
