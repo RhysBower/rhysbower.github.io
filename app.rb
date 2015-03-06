@@ -4,7 +4,25 @@ require 'sinatra'
 require 'pony'
 
 get "/" do
-  erb :index
+  @page = "/"
+  erb :index, layout: :default
+end
+
+get "/games/UfoRide" do
+  @page = "/games/UfoRide"
+  erb :uforide, layout: :default
+end
+get "/games/UfoRide2" do
+  @page = "/games/UfoRide2"
+  erb :uforide2, layout: :default
+end
+get "/games/TheUnbeatableTest" do
+  @page = "/games/TheUnbeatableTest"
+  erb :theunbeatabletest, layout: :default
+end
+get "/games/FluffyBall" do
+  @page = "/games/FluffyBall"
+  erb :fluffyball, layout: :default
 end
 
 post "/mail" do
@@ -28,6 +46,7 @@ post "/mail" do
         domain: "localhost"
       }
     })
+
   rescue
     return "false"
   end
