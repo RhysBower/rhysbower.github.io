@@ -47,14 +47,14 @@ h3 {
 
 header {
 	padding: 10px;
-	padding-top: 150px;
+	padding-top: 200px;
 	padding-bottom: 150px;
 	background: #009688;
 	/* 
 	 * img from Wikimedia Commons
 	 * under Creative Commons Attribution 2.0 Generic license.
 	 */
-	background: url(http://upload.wikimedia.org/wikipedia/commons/a/ac/Vancouver_night.jpg) no-repeat center center fixed;
+	background: url(img/vancouver.jpg) no-repeat center center fixed;
 	background-size: cover;
 	text-align: center;
 	color: #CCC;
