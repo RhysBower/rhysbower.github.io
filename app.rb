@@ -25,6 +25,10 @@ get "/games/FluffyBall" do
   erb :fluffyball, layout: :default
 end
 
+not_found do
+  redirect "/"
+end
+
 post "/mail" do
   begin
 
