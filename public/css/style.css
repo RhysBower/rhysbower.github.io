@@ -126,6 +126,7 @@ header .row .col-sm-4 img {
 	background: #009688;
 	padding-top: 40px;
 	padding-bottom: 40px;
+	color: #DDD;
 }
 
 #contact {
@@ -141,7 +142,7 @@ header .row .col-sm-4 img {
 
 .footer-info {
 	background: #1A237E;
-	color: white;
+	color: #DDD;
 	font-size: 15px;
 	padding-top: 25px;
 	padding-bottom: 25px;
@@ -152,7 +153,7 @@ header .row .col-sm-4 img {
 
 .footer-copyright {
 	background: #3F51B5;
-	color: white;
+	color: #DDD;
 	font-size: 15px;
 	padding-top: 25px;
 	padding-bottom: 25px;
