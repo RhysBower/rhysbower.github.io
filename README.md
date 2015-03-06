@@ -1,19 +1,15 @@
-# Sinatra Heroku Cedar Template
+# My Portfolio Site
 
-![](https://raw.githubusercontent.com/scottmotte/sinatra-heroku-cedar-template/master/sinatra-heroku-cedar-template.jpg)
-
-The bare minimum for a sinatra app on cedar, running rack, and using bundler.
+Most of the code in this project is to get it to run on Heroku
 
 ## Putting it up on Heroku
 
 Deploy to Heroku by clicking this button.
 
-[![Deploy](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy)
-
 ## Running it locally
 
 ```
-$ git clone git://github.com/scottmotte/sinatra-heroku-cedar-template.git
+$ git clone git://github.com/RhysBower/portfolio.git
 $ gem install bundler
 $ bundle
 $ bundle exec foreman start
@@ -58,4 +54,4 @@ get '/stylesheets/:stylesheet.css' do |stylesheet|
 end
 ```
 
-Restart your app and use your asset directories as normal.<br />ie. views/javascripts/test.coffee and views/stylesheets/test.css
+Restart your app and use your asset directories as normal.
