@@ -54,7 +54,8 @@ header {
 	 * img from Wikimedia Commons
 	 * under Creative Commons Attribution 2.0 Generic license.
 	 */
-	background: url(http://upload.wikimedia.org/wikipedia/commons/a/ac/Vancouver_night.jpg) no-repeat center center fixed;
+	/*background: url(http://upload.wikimedia.org/wikipedia/commons/a/ac/Vancouver_night.jpg) no-repeat center center fixed;*/
+	background: #3F51B5;
 	background-size: cover;
 	text-align: center;
 	color: #DDD;
