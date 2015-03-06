@@ -192,8 +192,13 @@ header {
 	color: #03A9F4;
 }
 
-.flashGame {
+.flash-game {
 	padding-top: 100px;
+	padding-bottom: 40px;
 	text-align: center;
 }
 
+.tank-header {
+	background: url("/img/portfolio/tank.png") no-repeat center center fixed;
+	background-size: cover;
+}
