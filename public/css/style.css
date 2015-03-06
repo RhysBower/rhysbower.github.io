@@ -57,21 +57,18 @@ header {
 	background: url(http://upload.wikimedia.org/wikipedia/commons/a/ac/Vancouver_night.jpg) no-repeat center center fixed;
 	background-size: cover;
 	text-align: center;
-	color: #CCC;
-}
-header .row .col-sm-4 img {
-	box-shadow: 0 0 5px 3px rgba(0, 0, 0, 0.2)
+	color: #DDD;
 }
 .head-shot {
 	margin-left: auto;
 	margin-right: auto;
+	box-shadow: 0 0 5px 3px rgba(0, 0, 0, 0.2)
 }
 
 #portfolio {
 	padding-top: 40px;
 	padding-bottom: 40px;
 	position: relative;
-	z-index: 1;
 }
 .img-container {
 	position: relative;
@@ -131,7 +128,6 @@ header .row .col-sm-4 img {
 
 #contact {
 	position: relative;
-	z-index: 1;
 	padding-top: 40px;
 	padding-bottom: 40px;
 }
