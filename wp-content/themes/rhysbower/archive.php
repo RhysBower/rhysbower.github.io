@@ -11,9 +11,9 @@
  *
  * @link https://codex.wordpress.org/Template_Hierarchy
  *
- * @package RhysBower
- * @subpackage Theme
- * @since Rhys Bower Theme 1.0
+ * @package WordPress
+ * @subpackage Twenty_Fifteen
+ * @since Twenty Fifteen 1.0
  */
 
 get_header(); ?>
@@ -46,9 +46,9 @@ get_header(); ?>
 
 			// Previous/next page navigation.
 			the_posts_pagination( array(
-				'prev_text'          => __( 'Previous page', 'rhysbower' ),
-				'next_text'          => __( 'Next page', 'rhysbower' ),
-				'before_page_number' => '<span class="meta-nav screen-reader-text">' . __( 'Page', 'rhysbower' ) . ' </span>',
+				'prev_text'          => __( 'Previous page', 'twentyfifteen' ),
+				'next_text'          => __( 'Next page', 'twentyfifteen' ),
+				'before_page_number' => '<span class="meta-nav screen-reader-text">' . __( 'Page', 'twentyfifteen' ) . ' </span>',
 			) );
 
 		// If no content, include the "No posts found" template.

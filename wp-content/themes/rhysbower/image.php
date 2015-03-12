@@ -2,9 +2,9 @@
 /**
  * The template for displaying image attachments
  *
- * @package RhysBower
- * @subpackage Theme
- * @since Rhys Bower Theme 1.0
+ * @package WordPress
+ * @subpackage Twenty_Fifteen
+ * @since Twenty Fifteen 1.0
  */
 
 get_header(); ?>
@@ -21,7 +21,7 @@ get_header(); ?>
 
 					<nav id="image-navigation" class="navigation image-navigation">
 						<div class="nav-links">
-							<div class="nav-previous"><?php previous_image_link( false, __( 'Previous Image', 'rhysbower' ) ); ?></div><div class="nav-next"><?php next_image_link( false, __( 'Next Image', 'rhysbower' ) ); ?></div>
+							<div class="nav-previous"><?php previous_image_link( false, __( 'Previous Image', 'twentyfifteen' ) ); ?></div><div class="nav-next"><?php next_image_link( false, __( 'Next Image', 'twentyfifteen' ) ); ?></div>
 						</div><!-- .nav-links -->
 					</nav><!-- .image-navigation -->
 
@@ -36,11 +36,11 @@ get_header(); ?>
 								/**
 								 * Filter the default Twenty Fifteen image attachment size.
 								 *
-								 * @since Rhys Bower Theme 1.0
+								 * @since Twenty Fifteen 1.0
 								 *
 								 * @param string $image_size Image size. Default 'large'.
 								 */
-								$image_size = apply_filters( 'rhysbower_attachment_size', 'large' );
+								$image_size = apply_filters( 'twentyfifteen_attachment_size', 'large' );
 
 								echo wp_get_attachment_image( get_the_ID(), $image_size );
 							?>
@@ -56,19 +56,19 @@ get_header(); ?>
 						<?php
 							the_content();
 							wp_link_pages( array(
-								'before'      => '<div class="page-links"><span class="page-links-title">' . __( 'Pages:', 'rhysbower' ) . '</span>',
+								'before'      => '<div class="page-links"><span class="page-links-title">' . __( 'Pages:', 'twentyfifteen' ) . '</span>',
 								'after'       => '</div>',
 								'link_before' => '<span>',
 								'link_after'  => '</span>',
-								'pagelink'    => '<span class="screen-reader-text">' . __( 'Page', 'rhysbower' ) . ' </span>%',
+								'pagelink'    => '<span class="screen-reader-text">' . __( 'Page', 'twentyfifteen' ) . ' </span>%',
 								'separator'   => '<span class="screen-reader-text">, </span>',
 							) );
 						?>
 					</div><!-- .entry-content -->
 
 					<footer class="entry-footer">
-						<?php rhysbower_entry_meta(); ?>
-						<?php edit_post_link( __( 'Edit', 'rhysbower' ), '<span class="edit-link">', '</span>' ); ?>
+						<?php twentyfifteen_entry_meta(); ?>
+						<?php edit_post_link( __( 'Edit', 'twentyfifteen' ), '<span class="edit-link">', '</span>' ); ?>
 					</footer><!-- .entry-footer -->
 
 				</article><!-- #post-## -->
@@ -81,7 +81,7 @@ get_header(); ?>
 
 					// Previous/next post navigation.
 					the_post_navigation( array(
-						'prev_text' => _x( '<span class="meta-nav">Published in</span><span class="post-title">%title</span>', 'Parent post link', 'rhysbower' ),
+						'prev_text' => _x( '<span class="meta-nav">Published in</span><span class="post-title">%title</span>', 'Parent post link', 'twentyfifteen' ),
 					) );
 
 				// End the loop.

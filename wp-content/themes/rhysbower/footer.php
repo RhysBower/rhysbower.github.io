@@ -4,59 +4,31 @@
  *
  * Contains the closing of the "site-content" div and all content after.
  *
- * @package RhysBower
- * @subpackage Theme
- * @since Rhys Bower Theme 1.0
+ * @package WordPress
+ * @subpackage Twenty_Fifteen
+ * @since Twenty Fifteen 1.0
  */
 ?>
 
 	</div><!-- .site-content -->
 
-	<footer>
-    <div class="footer-info">
-      <div class="container">
-        <div class="row">
-          <div class="col-sm-4">
-            Richmond BC, Canada
-            <img alt="" class="map img-responsive" data-user="3077743" height="230" src="/img/richmond.png" width="230">
-          </div>
-          <div class="col-sm-4">
-            <div class="row">
-              My Social Sites
-            </div>
-            <div class="row">
-              <a href="https://github.com/RhysBower" target="_blank" class="link">
-                <i class="fa fa-github-square social-icon"></i>
-              </a>
-            </div>
-          </div>
-          <div class="col-sm-4">
-            Email
-            <div class="row">
-              <a href="mailto:bowerrhys@gmail.com?Subject=Website%20Inquiry" class="link">
-                <i class="fa fa-envelope-o"></i> bowerrhys@gmail.com
-              </a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="footer-copyright">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-12">
-            Copyright © Rhys Bower 2015
-          </div>
-        </div>
-      </div>
-    </div>
-  </footer>
+	<footer id="colophon" class="site-footer" role="contentinfo">
+		<div class="site-info">
+			<?php
+				/**
+				 * Fires before the Twenty Fifteen footer text for footer customization.
+				 *
+				 * @since Twenty Fifteen 1.0
+				 */
+				do_action( 'twentyfifteen_credits' );
+			?>
+			<a href="<?php echo esc_url( __( 'https://wordpress.org/', 'twentyfifteen' ) ); ?>"><?php printf( __( 'Proudly powered by %s', 'twentyfifteen' ), 'WordPress' ); ?></a>
+		</div><!-- .site-info -->
+	</footer><!-- .site-footer -->
 
-  <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="/js/jquery-1.11.2.min.js"></script>
-  <!-- Latest compiled and minified JavaScript -->
-  <script src="/bootstrap/js/bootstrap.min.js"></script>
-  <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
-  <script src="/js/jqBootstrapValidation.js"></script>
+</div><!-- .site -->
+
+<?php wp_footer(); ?>
+
 </body>
 </html>

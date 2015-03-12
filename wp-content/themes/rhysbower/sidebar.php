@@ -2,9 +2,9 @@
 /**
  * The sidebar containing the main widget area
  *
- * @package RhysBower
- * @subpackage Theme
- * @since Rhys Bower Theme 1.0
+ * @package WordPress
+ * @subpackage Twenty_Fifteen
+ * @since Twenty Fifteen 1.0
  */
 
 if ( has_nav_menu( 'primary' ) || has_nav_menu( 'social' ) || is_active_sidebar( 'sidebar-1' )  ) : ?>
