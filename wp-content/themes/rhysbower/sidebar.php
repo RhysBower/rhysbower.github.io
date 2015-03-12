@@ -7,20 +7,8 @@
  * @since Twenty Fifteen 1.0
  */
 
-if ( has_nav_menu( 'primary' ) || has_nav_menu( 'social' ) || is_active_sidebar( 'sidebar-1' )  ) : ?>
+if ( has_nav_menu( 'social' ) || is_active_sidebar( 'sidebar-1' )  ) : ?>
 	<div id="secondary" class="secondary">
-
-		<?php if ( has_nav_menu( 'primary' ) ) : ?>
-			<nav id="site-navigation" class="main-navigation" role="navigation">
-				<?php
-					// Primary navigation menu.
-					wp_nav_menu( array(
-						'menu_class'     => 'nav-menu',
-						'theme_location' => 'primary',
-					) );
-				?>
-			</nav><!-- .main-navigation -->
-		<?php endif; ?>
 
 		<?php if ( has_nav_menu( 'social' ) ) : ?>
 			<nav id="social-navigation" class="social-navigation" role="navigation">
