@@ -231,6 +231,12 @@ function rhysbower_scripts() {
 		'expand'   => '<span class="screen-reader-text">' . __( 'expand child menu', 'rhysbower' ) . '</span>',
 		'collapse' => '<span class="screen-reader-text">' . __( 'collapse child menu', 'rhysbower' ) . '</span>',
 	) );
+
+	// Load bootstrap
+	wp_enqueue_style( 'rhysbower-bootstrap', get_template_directory_uri() . '/third-party/bootstrap/css/bootstrap.min.css' );
+
+	// Load the custom styles.
+	wp_enqueue_style( 'rhysbower-style-main', get_template_directory_uri() . '/css/main.css' );
 }
 add_action( 'wp_enqueue_scripts', 'rhysbower_scripts' );
 
