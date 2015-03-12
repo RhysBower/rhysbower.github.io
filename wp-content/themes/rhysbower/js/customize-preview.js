@@ -3,12 +3,12 @@
  */
 
 ( function( $ ) {
-	var $style = $( '#twentyfifteen-color-scheme-css' ),
+	var $style = $( '#rhysbower-color-scheme-css' ),
 		api = wp.customize;
 
 	if ( ! $style.length ) {
-		$style = $( 'head' ).append( '<style type="text/css" id="twentyfifteen-color-scheme-css" />' )
-		                    .find( '#twentyfifteen-color-scheme-css' );
+		$style = $( 'head' ).append( '<style type="text/css" id="rhysbower-color-scheme-css" />' )
+		                    .find( '#rhysbower-color-scheme-css' );
 	}
 
 	// Site title.
