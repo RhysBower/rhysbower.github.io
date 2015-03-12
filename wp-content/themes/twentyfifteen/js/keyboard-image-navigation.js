@@ -3,7 +3,7 @@
  */
 
 ( function( $ ) {
-	$( document ).on( 'keydown.rhysbower', function( e ) {
+	$( document ).on( 'keydown.twentyfifteen', function( e ) {
 		var url = false;
 
 		// Left arrow key code.
