@@ -1,7 +1,15 @@
+<?php
+$page = "/games/FluffyBall";
+$title = "Fluffy Ball - Rhys Bower";
+
+require '../../includes/header.php';
+
+?>
+
 <div class="flash-game">
-  <h1><strong>UFO Ride</strong></h1>
-  <object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" width="550" height="400" id="UfoRide" align="middle">
-    <param name="movie" value="/movies/UfoRide.swf" />
+  <h1><strong>Fluffy Ball</strong></h1>
+  <object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" width="600" height="450" id="FluffyBall" align="middle">
+    <param name="movie" value="/static/movies/FluffyBall.swf" />
     <param name="quality" value="high" />
     <param name="bgcolor" value="#ffffff" />
     <param name="play" value="true" />
@@ -13,8 +21,8 @@
     <param name="salign" value="" />
     <param name="allowScriptAccess" value="sameDomain" />
     <!--[if !IE]>-->
-    <object type="application/x-shockwave-flash" data="/movies/UfoRide.swf" width="550" height="400">
-      <param name="movie" value="/movies/UfoRide.swf" />
+    <object type="application/x-shockwave-flash" data="/static/movies/FluffyBall.swf" width="600" height="450">
+      <param name="movie" value="/static/movies/FluffyBall.swf" />
       <param name="quality" value="high" />
       <param name="bgcolor" value="#ffffff" />
       <param name="play" value="true" />
@@ -34,3 +42,5 @@
     <!--<![endif]-->
   </object>
 </div>
+
+<?php require '../../includes/footer.php' ?>

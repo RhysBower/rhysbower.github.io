@@ -43,6 +43,7 @@
             <li><a href="#portfolio">Portfolio</a></li>
             <li><a href="#about">Services</a></li>
             <li><a href="#contact">Contact</a></li>
+            <li><a href="/blog">Blog</a></li>
           </ul>
         </div><!-- /.navbar-collapse -->
       </div><!-- /.container-fluid -->
@@ -65,6 +66,7 @@
         <div class="collapse navbar-collapse" id="navbar-collapse">
           <ul class="nav navbar-nav navbar-right">
             <li><a href="/">Portfolio</a></li>
+            <li><a href="/blog">Blog</a></li>
           </ul>
         </div><!-- /.navbar-collapse -->
       </div><!-- /.container-fluid -->
