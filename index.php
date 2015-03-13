@@ -42,7 +42,7 @@ require 'includes/header.php';
                   <i class="fa fa-search-plus fa-3x"></i>
               </div>
             </div>
-            <img src="/static/img/portfolio/tank.png" class="img-responsive">
+            <img src="/static/img/portfolio/tank-thumb.png" class="img-responsive">
           </div>
         </a>
       </div>
@@ -55,7 +55,7 @@ require 'includes/header.php';
                   <i class="fa fa-search-plus fa-3x"></i>
               </div>
             </div>
-            <img src="/static/img/portfolio/freenode.png" class="img-responsive">
+            <img src="/static/img/portfolio/freenode-thumb.png" class="img-responsive">
           </div>
         </a>
       </div>
@@ -68,7 +68,7 @@ require 'includes/header.php';
                   <i class="fa fa-search-plus fa-3x"></i>
               </div>
             </div>
-            <img src="/static/img/portfolio/pong.png" class="img-responsive">
+            <img src="/static/img/portfolio/pong-thumb.png" class="img-responsive">
           </div>
         </a>
       </div>
@@ -81,7 +81,7 @@ require 'includes/header.php';
                   <i class="fa fa-search-plus fa-3x"></i>
               </div>
             </div>
-            <img src="/static/img/portfolio/fluffyball.png" class="img-responsive">
+            <img src="/static/img/portfolio/fluffyball-thumb.png" class="img-responsive">
           </div>
         </a>
       </div>
@@ -94,7 +94,7 @@ require 'includes/header.php';
                   <i class="fa fa-search-plus fa-3x"></i>
               </div>
             </div>
-            <img src="/static/img/portfolio/uforide2.png" class="img-responsive">
+            <img src="/static/img/portfolio/uforide2-thumb.png" class="img-responsive">
           </div>
         </a>
       </div>
@@ -107,7 +107,20 @@ require 'includes/header.php';
                   <i class="fa fa-search-plus fa-3x"></i>
               </div>
             </div>
-            <img src="/static/img/portfolio/theunbeatabletest.png" class="img-responsive">
+            <img src="/static/img/portfolio/theunbeatabletest-thumb.png" class="img-responsive">
+          </div>
+        </a>
+      </div>
+      <div class="col-sm-6 col-md-4">
+        <a href="#" class="portfolio-link" data-toggle="modal" data-target="#portfolio7">
+          <h3>Boyle's Law</h3>
+          <div class="row img-container">
+            <div class="caption">
+              <div class="caption-content">
+                  <i class="fa fa-search-plus fa-3x"></i>
+              </div>
+            </div>
+            <img src="/static/img/portfolio/boyleslaw-thumb.png" class="img-responsive">
           </div>
         </a>
       </div>
@@ -247,7 +260,7 @@ require 'includes/header.php';
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-        <a href="/games/FluffyBall" class="btn btn-primary" target="_blank">Play Fluffy Ball</a>
+        <a href="/games/FluffyBall" class="btn btn-primary">Play Fluffy Ball</a>
       </div>
     </div><!-- /.modal-content -->
   </div><!-- /.modal-dialog -->
@@ -266,8 +279,8 @@ require 'includes/header.php';
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-        <a href="/games/UfoRide" class="btn btn-primary" target="_blank">Play UFO Ride</a>
-        <a href="/games/UfoRide2" class="btn btn-primary" target="_blank">Play UFO Ride 2</a>
+        <a href="/games/UfoRide" class="btn btn-primary">Play UFO Ride</a>
+        <a href="/games/UfoRide2" class="btn btn-primary">Play UFO Ride 2</a>
       </div>
     </div><!-- /.modal-content -->
   </div><!-- /.modal-dialog -->
@@ -286,7 +299,26 @@ require 'includes/header.php';
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-        <a href="/games/TheUnbeatableTest" class="btn btn-primary" target="_blank">Play The Unbeatable Test</a>
+        <a href="/games/TheUnbeatableTest" class="btn btn-primary">Play The Unbeatable Test</a>
+      </div>
+    </div><!-- /.modal-content -->
+  </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
+
+<div class="modal fade" id="portfolio7" tabindex="-1" role="dialog" aria-labelledby="portfolio7Label" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="portfolio6Label">Boyle's Law</h4>
+      </div>
+      <div class="modal-body">
+        <img src="/static/img/portfolio/boyleslaw.png" class="img-responsive">
+        <p>An animation to explain Boyle's law.</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        <a href="/BoylesLaw" class="btn btn-primary">View Boyle's Law</a>
       </div>
     </div><!-- /.modal-content -->
   </div><!-- /.modal-dialog -->
