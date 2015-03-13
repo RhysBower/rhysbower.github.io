@@ -5,28 +5,35 @@ require 'pony'
 
 get "/" do
   @page = "/"
+  @title = "Rhys Bower"
   erb :index, layout: :default
 end
 
 get "/games/UfoRide" do
   @page = "/games/UfoRide"
+  @title = "UFO Ride"
   erb :uforide, layout: :default
 end
 get "/games/UfoRide2" do
   @page = "/games/UfoRide2"
+  @title = "UFO Ride 2"
   erb :uforide2, layout: :default
 end
 get "/games/TheUnbeatableTest" do
   @page = "/games/TheUnbeatableTest"
+  @title = "The Unbeatable Test"
   erb :theunbeatabletest, layout: :default
 end
 get "/games/FluffyBall" do
   @page = "/games/FluffyBall"
+  @title = "Fluffy Ball"
   erb :fluffyball, layout: :default
 end
 
-get "/blog" do
-  erb :"blog/list", layout: :default
+get "/BoylesLaw" do
+  @page = "/BoylesLaw"
+  @title = "Boyle's Law"
+  erb :boyleslaw, layout: :default
 end
 
 not_found do
