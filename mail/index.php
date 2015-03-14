@@ -12,7 +12,7 @@ if ( !isset($_POST['name']) ||
 
 require '../PHPMailer/PHPMailerAutoload.php';
 
-$mail = new PHPMailer(true);               // create a new object with exceptions
+$mail = new PHPMailer();               // create a new object with exceptions
 $mail->IsSMTP();                       // enable SMTP
 $mail->SMTPDebug = false;
 $mail->do_debug = 0;                  // debugging: 1 = errors and messages, 2 = messages only
