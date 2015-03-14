@@ -164,7 +164,7 @@ require 'includes/header.php';
     <div class="row">
       <div class="col-sm-12 col-md-8 col-md-offset-2">
         <div id = "alert_placeholder"></div>
-        <form id="contactForm" action="mail" method="POST" data-toggle="validator" role="form">
+        <form id="contactForm" action="mail/" method="POST" data-toggle="validator" role="form">
           <div class="row form-group col-xs-12">
             <label>Name</label>
             <input type="text" class="form-control" placeholder="Name" id="name" name="name" required>

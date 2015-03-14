@@ -19,7 +19,7 @@
           <div class="col-sm-4">
             Email
             <div class="row">
-              <a href="mailto:bowerrhys@gmail.com?Subject=Website%20Inquiry" class="link">
+              <a href="mailto:bowerrhys@gmail.com?Subject=Website%20Enquiry" class="link">
                 <i class="fa fa-envelope-o"></i> bowerrhys@gmail.com
               </a>
             </div>
@@ -43,7 +43,7 @@
   <!-- Latest compiled and minified JavaScript -->
   <script src="/static/bootstrap/js/bootstrap.min.js"></script>
   <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
-  <script src="/staic/js/jqBootstrapValidation.js"></script>
+  <script src="/static/js/jqBootstrapValidation.js"></script>
   <script src="/static/js/main.js"></script>
 </body>
 </html>
