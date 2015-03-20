@@ -70,4 +70,4 @@ gulp.task('img', function () {
         .pipe(gulp.dest('app/img'));
 });
 
-gulp.task('default', ['font-awesome', 'css', 'js'])
+gulp.task('default', ['font-awesome', 'css', 'js', 'img'])
