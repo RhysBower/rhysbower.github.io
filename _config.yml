@@ -1,0 +1,14 @@
+# Site settings
+title: Rhys Bower
+email: bowerrhys@gmail.com
+description: > # this means to ignore newlines until "baseurl:"
+  Rhys Bower is an aspiring local developer
+  working on a number of personal programming
+  projects. Rhys will be attending UBC for
+  Computer Science next year.
+baseurl: "" # the subpath of your site, e.g. /blog/
+permalink: /blog/:categories/:title/
+url: "http://www.rhysbower.com" # the base hostname & protocol for your site
+
+# Build settings
+markdown: kramdown
