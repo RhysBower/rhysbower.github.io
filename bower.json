@@ -6,7 +6,7 @@
   "author": "Rhys Bower <bowerrhys@gmail.com>",
   "private": true,
   "dependencies": {
-    "bootstrap": "*"
+    "bootstrap-sass": "~3.3.4"
   },
   "devDependencies": {}
 }
