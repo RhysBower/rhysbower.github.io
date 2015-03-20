@@ -5,8 +5,9 @@
   "description": "Rhys Bower is an aspiring developer.",
   "author": "Rhys Bower <bowerrhys@gmail.com>",
   "private": true,
-  "dependencies": {
-    "bootstrap-sass": "~3.3.4"
-  },
-  "devDependencies": {}
+  "dependencies": {},
+  "devDependencies": {
+    "bootstrap-sass": "~3.3.4",
+    "jquery-easing": "*"
+  }
 }
