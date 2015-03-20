@@ -21,5 +21,8 @@ Thumbs.db
 *.tar
 *.zip
 
+node_modules
+bower_components
+
 app/_site
 app/.sass-cache
