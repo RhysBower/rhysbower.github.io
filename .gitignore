@@ -26,4 +26,6 @@ bower_components
 
 app/_site
 app/.sass-cache
+app/css
+app/fonts
 app/js
