@@ -10,11 +10,11 @@
   "bugs": {
     "url": "https://github.com/RhysBower/RhysBower.github.io/issues"
   },
-  "dependencies": {},
   "devDependencies": {
     "bower": "*",
     "gulp": "^3.8.11",
-    "gulp-duration": "0.0.0"
+    "gulp-duration": "0.0.0",
+    "gulp-sass": "^1.3.3"
   },
   "private": true
 }
