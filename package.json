@@ -12,7 +12,9 @@
   },
   "dependencies": {},
   "devDependencies": {
-    "bower": "*"
+    "bower": "*",
+    "gulp": "^3.8.11",
+    "gulp-duration": "0.0.0"
   },
   "private": true
 }
