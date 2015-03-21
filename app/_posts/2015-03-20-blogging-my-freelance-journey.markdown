@@ -3,7 +3,7 @@ layout: post
 title:  Blogging my Freelance Journey
 published: 2015-03-20 09:00:00 -0700
 modified: 2015-03-20 09:00:00 -0700
-tags: update
+tags: [update]
 excerpt: >
   Hello world. It’s the phrase that all developers have probably typed many times.  The inaugural program to learn a new language.
 ---

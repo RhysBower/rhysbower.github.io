@@ -3,7 +3,7 @@ layout: post
 title:  The Importance of Building your Brand
 published:   2015-03-23 09:00:00 -0700
 modified: 2015-03-23 09:00:00 -0700
-tags: update
+tags: [business]
 excerpt: >
   To be noticed in an extremely saturated environment like web development I believe that your brand becomes very important.  It’s the reason that the site [www.rhysbower.com](http://www.rhysbower.com) exits along with this blog.  The more people that see me as a knowledgeable person in the industry the more likely I am to gain clients.  Both my portfolio and blog are designed to showcase the best of my work and convince prospective clients that I am the right person for the job.
 ---
