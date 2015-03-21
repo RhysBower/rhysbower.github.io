@@ -1,5 +1,6 @@
 # Site settings
 title: Rhys Bower
+author: Rhys Bower
 email: bowerrhys@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
   Rhys Bower is an aspiring local developer
