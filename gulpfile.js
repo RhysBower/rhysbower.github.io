@@ -67,4 +67,10 @@ gulp.task('img', function () {
         .pipe(gulp.dest('app/img'));
 });
 
+gulp.task('watch', function() {
+    gulp.watch('./app/_css/*.scss', ['css']);
+    gulp.watch('./app/_js/*.js', ['js']);
+    gulp.watch('./app/_img/*.*', ['img']);
+});
+
 gulp.task('default', ['font-awesome', 'css', 'js', 'img'])
