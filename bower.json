@@ -8,7 +8,6 @@
   "dependencies": {},
   "devDependencies": {
     "bootstrap-sass": "~3.3.4",
-    "jquery-easing": "*",
     "fontawesome": "~4.3.0"
   }
 }
