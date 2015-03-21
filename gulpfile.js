@@ -37,7 +37,9 @@ gulp.task('font-awesome', function() {
 
 
 gulp.task('js', function() {
-  return gulp.src(['./app/_js/main.js'])
+  return gulp.src(['./bower_components/jquery/dist/jquery.min.js',
+                   './bower_components/bootstrap-sass/assets/javascripts/bootstrap.min.js',
+                   './app/_js/main.js'])
     .pipe(concat('./app/js/all.js'))
     // .pipe(jslint({
     //         node: true,
