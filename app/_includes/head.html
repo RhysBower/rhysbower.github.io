@@ -50,7 +50,7 @@
     <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
   <![endif]-->
 
-  <link rel="canonical" href="{{ site.url }}{{ page.url }}">
+  <link rel="canonical" href="{{ site.url }}{{ page.url | remove: "index.html" }}">
   <meta property="og:url" content="{{ site.url }}{{ page.url }}">
   <link href="{{ "/atom.xml" | prepend: site.url }}" rel="alternate" title="Atom" type="application/atom+xml">
   <link href="{{ "/sitemap.xml" | prepend: site.url }}" rel="sitemap" title="Sitemap" type="application/xml">
