@@ -3,9 +3,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
-
-  {% if page.title and page.grouptype != "tag" %}
+  {% if page.title %}
     <title>{{ page.title }} &ndash; {{ site.title }}</title>
     <meta content="{{ page.title }}" property="og:title">
     <meta content="{{ page.title }}" name="twitter:title">
@@ -16,7 +14,7 @@
   {% endif %}
   <meta content="{{ site.title }}" property="og:site_name">
 
-  {% if page.description}
+  {% if page.description %}
     <meta content="{{ page.description }}" name="description">
     <meta content="{{ page.description }}" property="og:description">
     <meta content="{{ page.description }}" name="twitter:description">
