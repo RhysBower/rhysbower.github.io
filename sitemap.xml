@@ -3,7 +3,7 @@
   
     
     <url>
-      <loc>http://localhost:4000/2015/03/blogging-my-freelance-journey/</loc>
+      <loc>http://www.rhysbower.com/2015/03/blogging-my-freelance-journey/</loc>
       
         <lastmod>2015-03-20T00:00:00-07:00</lastmod>
       
@@ -23,24 +23,9 @@
   
     
     <url>
-      <loc>http://localhost:4000/boyleslaw/</loc>
+      <loc>http://www.rhysbower.com/boyleslaw/</loc>
       
-        <lastmod>2015-03-21T11:27:45-07:00</lastmod>
-      
-      
-        <changefreq>monthly</changefreq>
-      
-      
-        <priority>0.3</priority>
-      
-    </url>
-    
-  
-    
-    <url>
-      <loc>http://localhost:4000/games/fluffyball/</loc>
-      
-        <lastmod>2015-03-21T11:27:45-07:00</lastmod>
+        <lastmod>2015-03-21T11:35:39-07:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -53,9 +38,9 @@
   
     
     <url>
-      <loc>http://localhost:4000/games/theunbeatabletest/</loc>
+      <loc>http://www.rhysbower.com/games/fluffyball/</loc>
       
-        <lastmod>2015-03-21T11:27:45-07:00</lastmod>
+        <lastmod>2015-03-21T11:35:39-07:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -68,9 +53,24 @@
   
     
     <url>
-      <loc>http://localhost:4000/</loc>
+      <loc>http://www.rhysbower.com/games/theunbeatabletest/</loc>
       
-        <lastmod>2015-03-21T11:27:45-07:00</lastmod>
+        <lastmod>2015-03-21T11:35:39-07:00</lastmod>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.3</priority>
+      
+    </url>
+    
+  
+    
+    <url>
+      <loc>http://www.rhysbower.com/</loc>
+      
+        <lastmod>2015-03-21T11:35:39-07:00</lastmod>
       
       
         <changefreq>weekly</changefreq>
@@ -83,24 +83,9 @@
   
     
     <url>
-      <loc>http://localhost:4000/games/uforide2/</loc>
+      <loc>http://www.rhysbower.com/games/uforide2/</loc>
       
-        <lastmod>2015-03-21T11:27:45-07:00</lastmod>
-      
-      
-        <changefreq>monthly</changefreq>
-      
-      
-        <priority>0.3</priority>
-      
-    </url>
-    
-  
-    
-    <url>
-      <loc>http://localhost:4000/games/uforide/</loc>
-      
-        <lastmod>2015-03-21T11:27:45-07:00</lastmod>
+        <lastmod>2015-03-21T11:35:39-07:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -113,9 +98,24 @@
   
     
     <url>
-      <loc>http://localhost:4000/portfolio.html</loc>
+      <loc>http://www.rhysbower.com/games/uforide/</loc>
       
-        <lastmod>2015-03-21T11:27:45-07:00</lastmod>
+        <lastmod>2015-03-21T11:35:39-07:00</lastmod>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.3</priority>
+      
+    </url>
+    
+  
+    
+    <url>
+      <loc>http://www.rhysbower.com/portfolio.html</loc>
+      
+        <lastmod>2015-03-21T11:35:39-07:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
