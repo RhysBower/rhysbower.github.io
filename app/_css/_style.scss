@@ -17,7 +17,7 @@ h3 {
 }
 
 .navbar {
-	background: rgba(157, 197, 236, 0.7);
+	background: rgb(157, 197, 236);
 	border-bottom-color: #03A9F4;
 	border-bottom-width: 5px;
 }
@@ -45,21 +45,7 @@ h3 {
   transition: all 0.5s ease;
 }
 
-header {
-	padding: 10px;
-	padding-top: 200px;
-	padding-bottom: 150px;
-	background: #009688;
-	/* 
-	 * img from Wikimedia Commons
-	 * under Creative Commons Attribution 2.0 Generic license.
-	 */
-	/*background: url(http://upload.wikimedia.org/wikipedia/commons/a/ac/Vancouver_night.jpg) no-repeat center center fixed;*/
-	background: #3F51B5;
-	background-size: cover;
-	text-align: center;
-	color: #DDD;
-}
+
 .head-shot {
 	margin-left: auto;
 	margin-right: auto;
@@ -137,33 +123,6 @@ header {
 	resize: vertical; 
 }
 
-.footer-info {
-	background: #1A237E;
-	color: #DDD;
-	font-size: 15px;
-	padding-top: 25px;
-	padding-bottom: 25px;
-	text-align: center;
-	padding-top: 40px;
-	padding-bottom: 40px;
-}
-
-.footer-copyright {
-	background: #3F51B5;
-	color: #DDD;
-	font-size: 15px;
-	padding-top: 25px;
-	padding-bottom: 25px;
-	text-align: center;
-}
-.map {
-	margin-left: auto;
-	margin-right: auto;
-}
-.social-icon {
-	font-size: 48px;
-}
-
 .img-responsive {
 	border-radius: 10px;
 }
@@ -201,4 +160,8 @@ header {
 .tank-header {
 	background: url("/img/portfolio/tank.png") no-repeat center center fixed;
 	background-size: cover;
+}
+
+.article-title {
+	font-size: 24px;
 }

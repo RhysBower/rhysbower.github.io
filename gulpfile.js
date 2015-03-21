@@ -26,9 +26,7 @@ gulp.task('css', function() {
         cascade: false
     }))
     .pipe(csscomb())
-    .pipe(csslint())
-    .pipe(csslint.reporter())
-    .pipe(minifyCSS())
+    // .pipe(minifyCSS())
     .pipe(gulp.dest('./app/css'));
 });
 

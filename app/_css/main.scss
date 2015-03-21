@@ -1,3 +1,51 @@
-@import "./bower_components/bootstrap-sass/assets/stylesheets/bootstrap";
+@charset "utf-8";
+
+@import "reset";
+
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+
+// @import "./bower_components/bootstrap-sass/assets/stylesheets/bootstrap";
+// Core variables and mixins
+@import "./bower_components/bootstrap-sass/assets/stylesheets/bootstrap/variables";
+@import "./bower_components/bootstrap-sass/assets/stylesheets/bootstrap/mixins";
+
+// Reset and dependencies
+@import "./bower_components/bootstrap-sass/assets/stylesheets/bootstrap/normalize";
+@import "./bower_components/bootstrap-sass/assets/stylesheets/bootstrap/print";
+@import "./bower_components/bootstrap-sass/assets/stylesheets/bootstrap/glyphicons";
+
+// Core CSS
+@import "./bower_components/bootstrap-sass/assets/stylesheets/bootstrap/scaffolding";
+@import "./bower_components/bootstrap-sass/assets/stylesheets/bootstrap/type";
+@import "./bower_components/bootstrap-sass/assets/stylesheets/bootstrap/code";
+@import "./bower_components/bootstrap-sass/assets/stylesheets/bootstrap/grid";
+@import "./bower_components/bootstrap-sass/assets/stylesheets/bootstrap/tables";
+@import "./bower_components/bootstrap-sass/assets/stylesheets/bootstrap/forms";
+@import "./bower_components/bootstrap-sass/assets/stylesheets/bootstrap/buttons";
+
+@import "./bower_components/bootstrap-sass/assets/stylesheets/bootstrap/modals";
+@import "./bower_components/bootstrap-sass/assets/stylesheets/bootstrap/close";
+
 @import "./bower_components/fontawesome/scss/font-awesome";
-@import "vars";
+
+
+@import
+        "vars",
+        "layout",
+        "style",
+        "header",
+        "footer"
+;
+
+@import
+        "vars-default",
+        "base",
+        "layout-default",
+        "syntax-highlighting"
+;
