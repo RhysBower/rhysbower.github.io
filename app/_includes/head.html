@@ -14,6 +14,16 @@
   {% endif %}
   <meta content="{{ site.title }}" property="og:site_name">
 
+  {% if page.path contains '_posts' %}
+    <meta property="og:type" content="article">
+    <meta property="article:published_time" content="{{ page.published }}">
+    <meta property="article:modified_time" content="{{ page.modified }}">
+    <meta propery="og:updated_time" content="{{ page.modified }}">
+  {% else %}
+    <meta property="og:type" content="website">
+    <meta propery="og:updated_time" content="{{ site.time }}">
+  {% endif %}
+
   {% if page.description %}
     <meta content="{{ page.description }}" name="description">
     <meta content="{{ page.description }}" property="og:description">
@@ -23,8 +33,13 @@
     <meta content="{{ site.description }}" property="og:description">
     <meta content="{{ site.description }}" name="twitter:description">
   {% endif %}
+  {% if page.image %}
+    <meta content="{{ page.image  | prepend: site.url }}" property="og:image">
+  {% else %}
+    <meta content="{{ site.image  | prepend: site.url }}" property="og:image">
+  {% endif %}
 
-  <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
+  <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.url }}">
 
   <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
   <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -34,6 +49,7 @@
   <![endif]-->
 
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
-  <link href="{{ "/atom.xml" | prepend: site.baseurl }}" rel="alternate" title="Atom" type="application/atom+xml">
-  <link href="{{ "/sitemap.xml" | prepend: site.baseurl }}" rel="sitemap" title="Sitemap" type="application/xml">
+  <meta property="og:url" content="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+  <link href="{{ "atom.xml" | prepend: site.url }}" rel="alternate" title="Atom" type="application/atom+xml">
+  <link href="{{ "sitemap.xml" | prepend: site.url }}" rel="sitemap" title="Sitemap" type="application/xml">
 </head>

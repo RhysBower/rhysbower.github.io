@@ -16,7 +16,7 @@ layout: default
   <div class="row">
     <div class="col-sm-6 col-sm-offset-3">
 
-      <div><i class="fa fa-calendar"></i> {{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</div>
+      <div><i class="fa fa-calendar"></i> {{ page.published | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</div>
       <hr/>
       <article class="post">
         {{ content }}
