@@ -15,31 +15,31 @@
   <meta content="{{ site.title }}" property="og:site_name">
 
   {% if page.path contains '_posts' %}
-    <meta property="og:type" content="article">
-    <meta property="article:published_time" content="{{ page.published }}">
-    <meta property="article:modified_time" content="{{ page.modified }}">
-    <meta propery="og:updated_time" content="{{ page.modified }}">
+    <meta property="og:type" content="article"/>
+    <meta property="article:published_time" content="{{ page.published }}"/>
+    <meta property="article:modified_time" content="{{ page.modified }}"/>
+    <meta propery="og:updated_time" content="{{ page.modified }}"/>
   {% else %}
-    <meta property="og:type" content="website">
-    <meta propery="og:updated_time" content="{{ site.time }}">
+    <meta property="og:type" content="website"/>
+    <meta propery="og:updated_time" content="{{ site.time }}"/>
   {% endif %}
 
   {% if page.description %}
     <meta content="{{ page.description }}" name="description">
-    <meta content="{{ page.description }}" property="og:description">
+    <meta content="{{ page.description }}" property="og:description"/>
     <meta content="{{ page.description }}" name="twitter:description">
   {% else %}
     <meta content="{{ site.description }}" name="description">
-    <meta content="{{ site.description }}" property="og:description">
+    <meta content="{{ site.description }}" property="og:description"/>
     <meta content="{{ site.description }}" name="twitter:description">
   {% endif %}
   {% if page.image %}
-    <meta content="{{ page.image  | prepend: site.url }}" property="og:image">
+    <meta content="{{ page.image  | prepend: site.url }}" property="og:image"/>
   {% else %}
-    <meta content="{{ site.image  | prepend: site.url }}" property="og:image">
+    <meta content="{{ site.image  | prepend: site.url }}" property="og:image"/>
   {% endif %}
 
-  <meta content="Rhys Bower" name="author">
+  <meta content="Rhys Bower" name="author"/>
 
   <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.url }}">
 
