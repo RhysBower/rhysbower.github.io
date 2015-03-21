@@ -37,23 +37,20 @@ gulp.task('font-awesome', function() {
 
 
 gulp.task('js', function() {
-  return gulp.src(['./bower_components/jquery/dist/jquery.min.js',
-                   './bower_components/jquery-easing/jquery.easing.js',
-                   './bower_components/bootstrap-sass/assets/javascripts/bootstrap.min.js',
-                   './app/_js/main.js'])
+  return gulp.src(['./app/_js/main.js'])
     .pipe(concat('./app/js/all.js'))
-    .pipe(jslint({
-            node: true,
-            evil: true,
-            nomen: true,
-            global: [],
-            predef: [],
-            reporter: 'default',
-            errorsOnly: false
-        }))
-        .on('error', function (error) {
-            console.error(String(error));
-        })
+    // .pipe(jslint({
+    //         node: true,
+    //         evil: true,
+    //         nomen: true,
+    //         global: [],
+    //         predef: [],
+    //         reporter: 'default',
+    //         errorsOnly: false
+    //     }))
+    //     .on('error', function (error) {
+    //         console.error(String(error));
+    //     })
     .pipe(uglify())
     .pipe(gulp.dest(''));
 });

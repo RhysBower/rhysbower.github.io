@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Blogging my Freelance Journey"
+title:  Blogging my Freelance Journey
 date:   2015-03-20 09:00:00
 categories: update
 ---
