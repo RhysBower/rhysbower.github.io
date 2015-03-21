@@ -27,7 +27,7 @@ sitemap:
             <span class="post-meta">{{ post.published | date: "%b %-d, %Y" }}</span>
 
             <h2>
-              <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+              <a class="post-link" href="{{ post.url | prepend: site.url }}">{{ post.title }}</a>
             </h2>
             <p>{{ post.excerpt | markdownify }}</p>
           </li>

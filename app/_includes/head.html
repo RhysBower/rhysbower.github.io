@@ -39,6 +39,8 @@
     <meta content="{{ site.image  | prepend: site.url }}" property="og:image">
   {% endif %}
 
+  <meta content="Rhys Bower" name="author">
+
   <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.url }}">
 
   <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
@@ -48,8 +50,8 @@
     <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
   <![endif]-->
 
-  <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
-  <meta property="og:url" content="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
-  <link href="{{ "atom.xml" | prepend: site.url }}" rel="alternate" title="Atom" type="application/atom+xml">
-  <link href="{{ "sitemap.xml" | prepend: site.url }}" rel="sitemap" title="Sitemap" type="application/xml">
+  <link rel="canonical" href="{{ site.url }}{{ page.url }}">
+  <meta property="og:url" content="{{ site.url }}{{ page.url }}">
+  <link href="{{ "/atom.xml" | prepend: site.url }}" rel="alternate" title="Atom" type="application/atom+xml">
+  <link href="{{ "/sitemap.xml" | prepend: site.url }}" rel="sitemap" title="Sitemap" type="application/xml">
 </head>
