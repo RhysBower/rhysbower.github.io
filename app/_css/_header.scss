@@ -1,3 +1,32 @@
+$nav-bar-height: 100px;
+
+.main-nav {
+  background: #9dc5ec;
+  border-bottom-color: #03A9F4;
+  border-bottom-width: 5px;
+  height: $nav-bar-height;
+}
+.head-shot {
+  margin-top: 20px;
+}
+.nav-bar {
+  height: $nav-bar-height;
+}
+.nav-list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.nav-item {
+  display: inline-block;
+  padding-top: 38px;
+}
+.nav-link {
+  padding-left: 10px;
+  padding-right: 10px;
+  font-size: 24px;
+}
+
 header {
   padding: 10px;
   padding-top: 100px;
