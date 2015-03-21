@@ -27,7 +27,7 @@ sitemap:
             <h2>
               <a href="{{ post.url | prepend: site.url }}">{{ post.title }}</a>
             </h2>
-            <div><i class="fa fa-calendar"></i> {{ post.published | date: "%b %-d, %Y" }}{% if post.author %} • {{ post.author }}{% endif %}{% if post.meta %} • {{ post.meta }}{% endif %}</div>
+            <div><i class="fa fa-calendar-o"></i> {{ post.published | date: "%b %-d, %Y" }}{% if post.author %} • {{ post.author }}{% endif %}{% if post.meta %} • {{ post.meta }}{% endif %}</div>
             <hr/>
             <p>{{ post.excerpt | markdownify }}</p>
             <a href="{{ post.url | prepend: site.url }}">Continue Reading</a>
