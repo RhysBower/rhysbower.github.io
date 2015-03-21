@@ -26,7 +26,7 @@ gulp.task('css', function() {
         cascade: false
     }))
     .pipe(csscomb())
-    // .pipe(minifyCSS())
+    .pipe(minifyCSS())
     .pipe(gulp.dest('./app/css'));
 });
 
@@ -42,18 +42,18 @@ gulp.task('js', function() {
                    './bower_components/bootstrap-sass/assets/javascripts/bootstrap.min.js',
                    './app/_js/main.js'])
     .pipe(concat('./app/js/all.js'))
-    // .pipe(jslint({
-    //         node: true,
-    //         evil: true,
-    //         nomen: true,
-    //         global: [],
-    //         predef: [],
-    //         reporter: 'default',
-    //         errorsOnly: false
-    //     }))
-    //     .on('error', function (error) {
-    //         console.error(String(error));
-    //     })
+    .pipe(jslint({
+            node: true,
+            evil: true,
+            nomen: true,
+            global: [],
+            predef: [],
+            reporter: 'default',
+            errorsOnly: false
+        }))
+        .on('error', function (error) {
+            console.error(String(error));
+        })
     .pipe(uglify())
     .pipe(gulp.dest(''));
 });

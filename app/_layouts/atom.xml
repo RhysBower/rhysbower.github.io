@@ -9,6 +9,6 @@
     <name>{{ site.author }}</name>
     <email>{{ site.email }}</email>
   </author>
-  <rights type="text">Copyright © {{ site.time | date: "%Y" }} {{ site.author }}.</rights>
+  <rights type="text">{{ site.copyright }}</rights>
   {{ content }}
 </feed>

@@ -6,6 +6,7 @@ description: > # this means to ignore newlines until "baseurl:"
   Rhys Bower is an aspiring local developer
   working on a number of personal programming
   projects. Rhys will be studying Computer Science at UBC next year.
+copyright: Copyright © 2015 Rhys Bower. All rights reserved.
 baseurl: "" # the subpath of your site, e.g. /blog/
 permalink: /:year/:month/:title/
 url: "http://www.rhysbower.com" # the base hostname & protocol for your site
