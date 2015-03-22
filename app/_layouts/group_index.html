@@ -1,20 +1,19 @@
 ---
 layout: default
-sitemap:
-  changefreq: weekly
-  priority: 1.0
 ---
 
-<header>
-  <div class="container">
-    <div class="row">
-      <div class="col-xs-12 col-sm-12 col-md-8 col-md-offset-4">
-        <h1>Rhys Bower</h1>
-        <div class="tagline">Student and Developer</div>
+{% if page.grouptype == 'tag' %}
+  {% assign loop = site.tags.[page.tag] %}
+  <header>
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12 col-sm-8 col-sm-offset-4">
+          <h1 class="article-title">Tag: {{ page.title }}</h1>
+        </div>
       </div>
     </div>
-  </div>
-</header>
+  </header>
+{% endif %}
 
 <div class="container content">
   <div class="row">

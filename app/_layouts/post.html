@@ -22,14 +22,14 @@ layout: default
         {{ content }}
       </article>
       <hr/>
-      <!-- {% if page.tags != empty %}
+      {% if page.tags != empty %}
         <div>
           <i class="fa fa-tags"></i>
           {% for tag in page.tags %}
             <a href="/tag/{{ tag | slugify }}" rel="tag">{{ tag }}</a>{% if forloop.last == false %}, {% endif %}
           {% endfor %}
         </div>
-      {% endif %} -->
+      {% endif %}
 
     </div>
   </div>
