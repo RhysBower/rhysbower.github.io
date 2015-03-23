@@ -12,6 +12,7 @@ permalink: /:year/:month/:title/
 url: "http://localhost:4000" # the base hostname & protocol for your site
 
 source: app
+timezone: America/Vancouver
 
 # Build settings
 markdown: kramdown
