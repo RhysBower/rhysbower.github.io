@@ -3,10 +3,14 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  {% if page.title %}
+  {% if page.title and page.grouptype != "tag" %}
     <title>{{ page.title }} &ndash; {{ site.title }}</title>
     <meta content="{{ page.title }}" property="og:title">
     <meta content="{{ page.title }}" name="twitter:title">
+  {% else if page.grouptype == "tag" %}
+    <title>Posts Tagged “{{ page.tag }}” &ndash; {{ site.title }}</title>
+    <meta content="Posts Tagged “{{ page.tag }}” &ndash; {{ site.title }}" property="og:title">
+    <meta content="Posts Tagged “{{ page.tag }}” &ndash; {{ site.title }}" name="twitter:title">
   {% else %}
     <title>{{ site.title }}</title>
     <meta content="{{ site.title }}" property="og:title">
@@ -24,10 +28,14 @@
     <meta propery="og:updated_time" content="{{ site.time }}"/>
   {% endif %}
 
-  {% if page.description %}
+  {% if page.description and page.grouptype != "tag" %}
     <meta content="{{ page.description }}" name="description">
-    <meta content="{{ page.description }}" property="og:description"/>
+    <meta content="{{ page.description }}" property="og:description">
     <meta content="{{ page.description }}" name="twitter:description">
+  {% else if page.grouptype == "tag" %}
+    <meta content="Posts Tagged “{{ page.tag }}” &ndash; {{ site.title }}" name="description">
+    <meta content="Posts Tagged “{{ page.tag }}” &ndash; {{ site.title }}" property="og:description">
+    <meta content="Posts Tagged “{{ page.tag }}” &ndash; {{ site.title }}" name="twitter:description">
   {% else if page.excerpt %}
     <meta content="{{ page.excerpt }}" name="description">
     <meta content="{{ page.excerpt }}" property="og:description"/>
