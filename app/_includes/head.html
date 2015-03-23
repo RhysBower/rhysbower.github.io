@@ -28,13 +28,20 @@
     <meta content="{{ page.description }}" name="description">
     <meta content="{{ page.description }}" property="og:description"/>
     <meta content="{{ page.description }}" name="twitter:description">
+  {% else if post.excerpt %}
+    <meta content="{{ site.description }}" name="description">
+    <meta content="{{ site.description }}" property="og:description"/>
+    <meta content="{{ site.description }}" name="twitter:description">
   {% else %}
     <meta content="{{ site.description }}" name="description">
     <meta content="{{ site.description }}" property="og:description"/>
     <meta content="{{ site.description }}" name="twitter:description">
   {% endif %}
+
   {% if page.image %}
     <meta content="{{ page.image  | prepend: site.url }}" property="og:image"/>
+  {% else if post.image %}
+    <meta content="{{ post.image  | prepend: site.url }}" property="og:image"/>
   {% else %}
     <meta content="{{ site.image  | prepend: site.url }}" property="og:image"/>
   {% endif %}
@@ -63,7 +70,7 @@
   <![endif]-->
 
   <link rel="canonical" href="{{ site.url }}{{ page.url | remove: "index.html" }}">
-  <meta property="og:url" content="{{ site.url }}{{ page.url | remove "index.htmll" }}">
+  <meta property="og:url" content="{{ site.url }}{{ page.url | remove "index.html" }}">
   <link href="{{ "/atom.xml" | prepend: site.url }}" rel="alternate" title="Atom" type="application/atom+xml">
   <link href="{{ "/sitemap.xml" | prepend: site.url }}" rel="sitemap" title="Sitemap" type="application/xml">
 </head>
