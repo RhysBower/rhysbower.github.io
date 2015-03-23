@@ -24,7 +24,7 @@ Thumbs.db
 node_modules
 bower_components
 
-app/_site
+_site
 app/.sass-cache
 app/css
 app/fonts
