@@ -28,10 +28,10 @@
     <meta content="{{ page.description }}" name="description">
     <meta content="{{ page.description }}" property="og:description"/>
     <meta content="{{ page.description }}" name="twitter:description">
-  {% else if post.excerpt %}
-    <meta content="{{ site.description }}" name="description">
-    <meta content="{{ site.description }}" property="og:description"/>
-    <meta content="{{ site.description }}" name="twitter:description">
+  {% else if page.excerpt %}
+    <meta content="{{ page.excerpt }}" name="description">
+    <meta content="{{ page.excerpt }}" property="og:description"/>
+    <meta content="{{ page.excerpt }}" name="twitter:description">
   {% else %}
     <meta content="{{ site.description }}" name="description">
     <meta content="{{ site.description }}" property="og:description"/>
@@ -40,8 +40,6 @@
 
   {% if page.image %}
     <meta content="{{ page.image  | prepend: site.url }}" property="og:image"/>
-  {% else if post.image %}
-    <meta content="{{ post.image  | prepend: site.url }}" property="og:image"/>
   {% else %}
     <meta content="{{ site.image  | prepend: site.url }}" property="og:image"/>
   {% endif %}
