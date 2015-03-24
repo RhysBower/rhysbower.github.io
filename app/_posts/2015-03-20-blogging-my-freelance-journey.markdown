@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Blogging my Freelance Journey
+title: Blogging my Freelance Journey
 published: 2015-03-20 09:00:00 -0700
 modified: 2015-03-20 09:00:00 -0700
 tags: ['update']

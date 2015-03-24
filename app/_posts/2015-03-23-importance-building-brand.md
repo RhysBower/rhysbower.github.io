@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  The Importance of Building your Brand
-published:   2015-03-23 09:00:00 -0700
+title: The Importance of Building your Brand
+published: 2015-03-23 09:00:00 -0700
 modified: 2015-03-23 09:00:00 -0700
 tags: [business]
 excerpt: >
