@@ -39,7 +39,9 @@
 
     <meta property="og:title" content="{{ page.title }}"/>
     <meta property="og:type" content="article"/>
-    <meta property="og:image" content="{{ page.image  | prepend: site.url }}"/>
+    {% if page.image %}
+      <meta property="og:image" content="{{ page.image  | prepend: site.url }}"/>
+    {% endif %}
     <meta property="og:description" content="{{ page.excerpt }}"/>
 
     <meta property="article:published_time" content="{{ page.published }}"/>
@@ -52,7 +54,9 @@
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="{{ page.title }}">
     <meta name="twitter:description" content="{{ page.excerpt }}">
-    <meta name="twitter:image" content="{{ page.image  | prepend: site.url }}">
+    {% if page.image %}
+      <meta name="twitter:image" content="{{ page.image  | prepend: site.url }}">
+    {% endif %}
 
   {% elsif page.grouptype == "page" %}
     <!-- Page -->
@@ -61,7 +65,7 @@
 
     <meta property="og:title" content="{{ page.title }}"/>
     <meta property="og:type" content="website"/>
-    <meta property="og:image" content="{{ page.image  | prepend: site.url }}"/>
+    <meta property="og:image" content="{{ page.image | prepend: site.url }}"/>
     <meta property="og:description" content="{{ page.description }}"/>
 
     <meta name="twitter:card" content="summary">
