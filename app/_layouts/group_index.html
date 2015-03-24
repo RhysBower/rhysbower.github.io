@@ -23,7 +23,7 @@ sitemap:
     <div class="col-sm-6 col-sm-offset-3">
 
       <ul class="post-list">
-        {% for post in site.posts %}
+        {% for post in loop %}
           {% include post-summary.html %}
         {% endfor %}
       </ul>
