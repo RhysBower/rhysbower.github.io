@@ -9,6 +9,7 @@ var autoprefixer = require('gulp-autoprefixer');
 var csscomb = require('gulp-csscomb');
 var csslint = require('gulp-csslint');
 var jslint = require('gulp-jslint');
+var rm = require( 'gulp-rm' )
 
 var imagemin = require('gulp-imagemin');
 var pngquant = require('imagemin-pngquant');
@@ -72,5 +73,10 @@ gulp.task('watch', function() {
     gulp.watch('./app/_js/*.js', ['js']);
     gulp.watch('./app/_img/*.*', ['img']);
 });
+
+gulp.task( 'clean', function() {
+  return gulp.src( ['app/css/**', 'app/js/**', 'app/img/**', 'app/fonts/**'], { read: false })
+    .pipe( rm() )
+})
 
 gulp.task('default', ['font-awesome', 'css', 'js', 'img'])
