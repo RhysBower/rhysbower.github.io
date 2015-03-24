@@ -14,6 +14,8 @@ var rm = require( 'gulp-rm' )
 var imagemin = require('gulp-imagemin');
 var pngquant = require('imagemin-pngquant');
 
+var ghPages = require('gulp-gh-pages');
+
 var config = {
      sassPath: './app/_sass',
      bowerDir: './bower_components' 
@@ -78,5 +80,12 @@ gulp.task( 'clean', function() {
   return gulp.src( ['app/css/**', 'app/js/**', 'app/img/**', 'app/fonts/**'], { read: false })
     .pipe( rm() )
 })
+
+gulp.task('deploy', function() {
+    return gulp.src('./_site/**/*')
+      .pipe(ghPages({
+        branch: "master"
+      }))
+});
 
 gulp.task('default', ['font-awesome', 'css', 'js', 'img'])
