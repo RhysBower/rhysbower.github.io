@@ -7,7 +7,7 @@ description: >
   working on a number of programming
   projects. I will be studying Computer Science at UBC next year.
 image: /img/profile.jpg
-copyright: Copyright © 2015 Rhys Bower. All rights reserved.
+copyright: Copyright © 2015 Rhys Bower.
 permalink: /:year/:month/:title/
 url: "http://localhost:4000" # the base hostname & protocol for your site
 
