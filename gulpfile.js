@@ -74,25 +74,18 @@ gulp.task('font-awesome', function() {
 
 
 gulp.task('js', function() {
-  return gulp.src(['./bower_components/jquery/dist/jquery.min.js',
-                   './bower_components/bootstrap-sass/assets/javascripts/bootstrap.min.js',
+  return gulp.src(['./bower_components/jquery/dist/jquery.js',
+                   './bower_components/bootstrap-sass/assets/javascripts/bootstrap.js',
                    './app/_js/main.js'])
     .pipe(concat('./app/js/all.js'))
-    // .pipe(jslint({
-    //         node: true,
-    //         evil: true,
-    //         nomen: true,
-    //         global: [],
-    //         predef: [],
-    //         reporter: 'default',
-    //         errorsOnly: false
-    //     }))
-    //     .on('error', function (error) {
-    //         console.error(String(error));
-    //     })
-    .pipe(uglify())
     .pipe(gulp.dest(''));
 });
+
+gulp.task('min-js', function() {
+  return gulp.src('_site/js/**/*.js')
+    .pipe(uglify())
+    .pipe(gulp.dest('_site/js'));
+})
 
 gulp.task('img', function () {
     return gulp.src('app/_img/**')
