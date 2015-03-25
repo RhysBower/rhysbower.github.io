@@ -6,7 +6,9 @@ modified: 2015-03-25 09:00:00 -0700
 tags: [web, performance]
 image: /img/posts/improving-site-speed/fast-waterfall.png
 excerpt: >
-  How I fixed my over fourteen second, 31 HTTP request website.
+  When my portfolio initially went online it was hosted with Heroku on their free tier. This was great.  It was fast and easy to deploy with git but only after the server warmed up.
+
+  I noticed that some page loads were taking over fourteen seconds and 31 HTTP requests to download all of the content for that page. Fourteen seconds! This was unacceptable and I knew that it had to be fixed fast.
 ---
 **My problem with my slow site.**
 
@@ -62,4 +64,4 @@ I have heard good things about [CloudFlare](http://www.cloudflare.com/) and will
 
 Heroku is a great platform and is very easy to use however it gets very expensive very quickly. Check it out only for production apps that need to run server side code.
 
-I had to make some compromises with the new site specifically with the no comments nature of a static site and restricting my ability to run server side code. Hopefully the speed increases will justify the compromises that were made.
+I had to make some compromises with the new site specifically with the no comments nature of a static site and restricting my ability to run server side code. Hopefully the fourteen to two second and 31 to 22 HTTP request reductions will justify the compromises that were made.
