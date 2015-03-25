@@ -39,8 +39,10 @@ gulp.task('validate-html', function() {
 });
 
 gulp.task('min-html', function() {
-  return gulp.src('_site/**/*.html')
-    .pipe(htmlmin({collapseWhitespace: true}))
+  return gulp.src(['_site/**/*.html', '_site/**/*.xml'])
+    .pipe(htmlmin({collapseWhitespace: true,
+                   removeComments: true
+                 }))
     .pipe(gulp.dest('_site'))
 });
 
@@ -71,7 +73,6 @@ gulp.task('font-awesome', function() {
   return gulp.src('./bower_components/fontawesome/fonts/*.*')
     .pipe(gulp.dest('./app/fonts'));
 });
-
 
 gulp.task('js', function() {
   return gulp.src(['./bower_components/jquery/dist/jquery.js',
