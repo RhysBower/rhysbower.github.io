@@ -21,11 +21,9 @@ sitemap:
   <div class="row">
     <div class="col-sm-6 col-sm-offset-3">
 
-      <ul class="post-list">
-        {% for post in site.posts %}
-          {% include post-summary.html %}
-        {% endfor %}
-      </ul>
+      {% for post in site.posts %}
+        {% include post-summary.html %}
+      {% endfor %}
 
     </div>
   </div>
