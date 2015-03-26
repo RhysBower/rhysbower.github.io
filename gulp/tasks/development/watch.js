@@ -1,4 +1,5 @@
 var gulp = require('gulp');
+var browserSync = require('browser-sync');
 
 gulp.task('watch', ['browser-sync'], function() {
     gulp.watch('./app/_css/*.scss', ['sass', browserSync.reload]);
