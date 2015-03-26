@@ -26,7 +26,7 @@ My initial thought was to prevent Heroku from sleeping my server. The only way t
 
 At this time the site also was powered by a Ruby with Sinatra stack. In reality this was only to power the contact forum and nothing else.
 
-I wanted to add a blog to this site as explained in [Blogging My Freelance Journey]({{ site.url }}/2015/03/blogging-my-freelance-journey/) so I switched my site from Ruby to PHP so that I could more easily integrate WordPress into a `/blog` sub-directory.
+I wanted to add a blog to this site as explained in [Blogging My Freelance Journey]({{ site.url }}/2015/03/blogging-my-freelance-journey/) so I switched my site from Ruby to PHP so that I could more easily integrate WordPress into a `/blog` sub-directory. Note that I chose to make the blog the home page of the domain in the end.
 
 Now I needed a MySQL database to store the WordPress content and Heroku was only going to charge me more for the most basic functionality.
 
