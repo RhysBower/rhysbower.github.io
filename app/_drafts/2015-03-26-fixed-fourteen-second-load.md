@@ -1,8 +1,8 @@
 ---
 layout: post
 title: How I fixed my over fourteen second, 31 HTTP request website.
-published: 2015-03-25 09:00:00 -0700
-modified: 2015-03-25 09:00:00 -0700
+published: 2015-03-26 09:00:00 -0700
+modified: 2015-03-26 09:00:00 -0700
 tags: [web, performance]
 image: /img/posts/improving-site-speed/fast-waterfall.png
 excerpt: >
