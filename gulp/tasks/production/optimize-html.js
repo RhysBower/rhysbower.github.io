@@ -2,7 +2,7 @@ var gulp = require('gulp');
 var htmlmin = require('gulp-htmlmin');
 
 gulp.task('optimize:html', function() {
-  return gulp.src(['_site/**/*.html', '_site/**/*.xml'])
+  return gulp.src(['_site/**/*.html'])
     .pipe(htmlmin({collapseWhitespace: true,
                    removeComments: true
                  }))
