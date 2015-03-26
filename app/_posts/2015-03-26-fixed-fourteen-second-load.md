@@ -18,7 +18,7 @@ I noticed that some page loads were taking over fourteen seconds and 31 HTTP req
 
 <a href="{{ site.url }}/img/posts/fixed-fourteen-second-load/slow-waterfall.png"><img class="img-responsive" src="{{ site.url }}/img/posts/fixed-fourteen-second-load/slow-waterfall.png" alt="Fourteen second, 31 HTTP request waterfall"/></a>
 
-To understand why this is we have to take a look at one of the key "features" of the Heroku free tier, server sleeping. Once a Heroku app with only one instance has been idle for an hour Heroku will sleep the server to save resources.  Unfortunately my site is that that active and I hit the one hour with no hits fairly frequently.
+To understand why this is we have to take a look at one of the key "features" of the Heroku free tier, server sleeping. Once a Heroku app with only one instance has been idle for an hour Heroku will sleep the server to save resources.  Unfortunately my site is not that active and I hit the one hour with no hits fairly frequently, causing my server to sleep.
 
 **Architecting a solution.**
 
