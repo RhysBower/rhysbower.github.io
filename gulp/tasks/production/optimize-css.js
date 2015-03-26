@@ -6,5 +6,5 @@ gulp.task('optimize:css', function() {
   return gulp.src('_site/css/**/*.css')
     .pipe(csscomb())
     .pipe(minifycss())
-    .pipe(gulp.dest('app/css'));
+    .pipe(gulp.dest('_site/css'));
 });

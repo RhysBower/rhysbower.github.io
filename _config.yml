@@ -16,3 +16,5 @@ timezone: America/Vancouver
 
 # Build settings
 markdown: kramdown
+
+keep_files: ['./**']
