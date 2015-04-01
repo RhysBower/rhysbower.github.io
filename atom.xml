@@ -4,7 +4,7 @@
   <link type="application/atom+xml" rel="self" href="http://www.rhysbower.com/atom.xml"/>
   <link href="http://www.rhysbower.com/"/>
   <id>http://www.rhysbower.com/</id>
-  <updated>2015-04-01T12:25:14Z</updated>
+  <updated>2015-04-01T16:26:34Z</updated>
   <author>
     <name>Rhys Bower</name>
     <email>bowerrhys@gmail.com</email>
@@ -17,7 +17,7 @@
     <id>http://www.rhysbower.com/2015/04/tech-april-fools-2015</id>
     <published>2015-04-01T00:00:00Z</published>
     <updated>2015-04-01T00:00:00Z</updated>
-    <content type="html"><![CDATA[ <p>Every year tech companies like to have some fun on April Fools. This is a round up of some of the best jokes this year. <strong>Updated throughout the day.</strong></p>
+    <content type="html"><![CDATA[ <p>Every year tech companies like to have some fun on April Fools. This is a round up of some of the best jokes from this year.</p>
 
 <hr />
 
@@ -38,9 +38,20 @@
 
 <p><a href="http://lumiaconversations.microsoft.com/2015/04/01/microsoft-launches-ms-dos-mobile/">MS-DOS Mobile</a></p>
 
-<p>For everyone who needs to run their childhood programs on their phone (if you were alive back then).</p>
+<p>For everyone who needs to run their childhood programs on their phone (if you were around back then).</p>
 
-<p><a href="https://maps.google.com"><img class="img-responsive" src="http://www.rhysbower.com/img/posts/tech-april-fools-2015/msdos-mobile.jpg" alt="MS-DOS Moblie" /></a></p>
+<div class="videoWrapper">
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/irJQDGw8Ptk" frameborder="0" allowfullscreen=""></iframe>
+</div>
+
+<hr />
+
+<p><a href="https://twitter.com/TeslaMotors/status/583339439759310848">Tesla Parking Ticket Avoidance</a></p>
+
+<p>This is exactly what we need self driving and thinking cars for.</p>
+
+<blockquote class="twitter-video" lang="en"><p>No more parking tickets for Model S owners. Today we’re introducing: ticket-avoidance-mode. Here’s how it works:&#10;<a href="https://t.co/uPFF3J5XyS">https://t.co/uPFF3J5XyS</a></p>&mdash; Tesla Motors (@TeslaMotors) <a href="https://twitter.com/TeslaMotors/status/583339439759310848">April 1, 2015</a></blockquote>
+<script async="" src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 <hr />
 
