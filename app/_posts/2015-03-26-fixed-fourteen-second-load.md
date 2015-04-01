@@ -12,7 +12,7 @@ excerpt: >
 ---
 **The problem with my slow site.**
 
-When my portfolio initially went online it was hosted with [Heroku](http//www.heroku.com) on their free tier. This was great.  It was fast and easy to deploy with `git` but only after the server warmed up.
+When my portfolio initially went online it was hosted with [Heroku](http://www.heroku.com) on their free tier. This was great.  It was fast and easy to deploy with `git` but only after the server warmed up.
 
 I noticed that some page loads were taking over fourteen seconds and 31 HTTP requests to download all of the content for that page. Fourteen seconds! This was unacceptable and I knew that it had to be fixed fast.
 
