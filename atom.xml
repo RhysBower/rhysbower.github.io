@@ -4,13 +4,54 @@
   <link type="application/atom+xml" rel="self" href="http://www.rhysbower.com/atom.xml"/>
   <link href="http://www.rhysbower.com/"/>
   <id>http://www.rhysbower.com/</id>
-  <updated>2015-03-31T18:52:40Z</updated>
+  <updated>2015-04-01T12:20:06Z</updated>
   <author>
     <name>Rhys Bower</name>
     <email>bowerrhys@gmail.com</email>
   </author>
   <rights type="text">Copyright © 2015 Rhys Bower.</rights>
   
+  <entry>
+    <title type="text">Tech April Fools 2015</title>
+    <link rel="alternate" type="text/html" href="http://www.rhysbower.com/2015/04/tech-april-fools-2015/"/>
+    <id>http://www.rhysbower.com/2015/04/tech-april-fools-2015</id>
+    <published>2015-04-01T00:00:00Z</published>
+    <updated>2015-04-01T00:00:00Z</updated>
+    <content type="html"><![CDATA[ <p>Every year tech companies like to have some fun on April Fools. This is a round up of some of the best jokes this year. <strong>Updated throughout the day.</strong></p>
+
+<hr />
+
+<p><a href="https://com.google">com.google</a></p>
+
+<p>This is not a one page stunt. The entire Google Search is horizontally flipped. Definitely check this one out and be prepared to be confused.</p>
+
+<p><a href="https://com.google"><img class="img-responsive" src="http://www.rhysbower.com/img/posts/tech-april-fools-2015/com.google.png" alt="com.google" /></a></p>
+
+<hr />
+
+<p><a href="https://www.youtube.com/watch?v=584qPWzfhHY">#MotoSelfieStick</a></p>
+<div class="videoWrapper">
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/584qPWzfhHY" frameborder="0" allowfullscreen=""></iframe>
+</div>
+
+<hr />
+
+<p><a href="http://lumiaconversations.microsoft.com/2015/04/01/microsoft-launches-ms-dos-mobile/">MS-DOS Mobile</a></p>
+
+<p>For everyone who needs to run their childhood programs on their phone (if you were alive back then).</p>
+
+<p><a href="https://maps.google.com"><img class="img-responsive" src="http://www.rhysbower.com/img/posts/tech-april-fools-2015/msdos-mobile.jpg" alt="MS-DOS Moblie" /></a></p>
+
+<hr />
+
+<p><a href="https://maps.google.com">Google Maps Pacman</a></p>
+
+<p>I’m not sure if this beats the <a href="https://www.google.com/search?q=google%20doodle%20pacman">Google Doodle Pacman</a> from a few years ago because the controls are confusing due to the odd angles of the roads.</p>
+
+<p><a href="https://maps.google.com"><img class="img-responsive" src="http://www.rhysbower.com/img/posts/tech-april-fools-2015/pacman.png" alt="Google Maps Pacman" /></a></p>
+ ]]></content>
+  </entry>
+
   <entry>
     <title type="text">How I fixed my over fourteen second, 31 HTTP request website.</title>
     <link rel="alternate" type="text/html" href="http://www.rhysbower.com/2015/03/fixed-fourteen-second-load/"/>
