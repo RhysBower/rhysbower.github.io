@@ -18,3 +18,5 @@ timezone: America/Vancouver
 markdown: kramdown
 
 keep_files: ['./**']
+
+production: false
