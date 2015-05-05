@@ -4,13 +4,39 @@
   <link type="application/atom+xml" rel="self" href="http://www.rhysbower.com/atom.xml"/>
   <link href="http://www.rhysbower.com/"/>
   <id>http://www.rhysbower.com/</id>
-  <updated>2015-04-29T14:41:49Z</updated>
+  <updated>2015-05-05T12:35:54Z</updated>
   <author>
     <name>Rhys Bower</name>
     <email>bowerrhys@gmail.com</email>
   </author>
   <rights type="text">Copyright © 2015 Rhys Bower.</rights>
   
+  <entry>
+    <title type="text">Why You Need Contracts</title>
+    <link rel="alternate" type="text/html" href="http://www.rhysbower.com/2015/05/why-need-contracts/"/>
+    <id>http://www.rhysbower.com/2015/05/why-need-contracts</id>
+    <published>2015-05-05T00:00:00Z</published>
+    <updated>2015-05-05T00:00:00Z</updated>
+    <content type="html"><![CDATA[ <p><img class="img-responsive" src="http://www.rhysbower.com/img/posts/why-need-contracts/contract.jpg" alt="Signing a contract." /></p>
+
+<p>I often get asked the question “Why do you require a contract?” Lets break down my answer.</p>
+
+<ol>
+  <li>
+    <p>Contracts are not about forcing money out of people. They are in place to protect both parties in the agreement. Who will do what, how it will be done, and what the compensation will be should all be specified. Contracts are not one way agreements, they are two. When I sign my name on the line I am now required to provide the mentioned services to you, therefore protecting both parties.</p>
+  </li>
+  <li>
+    <p>Proposing a contract should not introduce tension to the work relationship. I’ll admit for a lot of my clients the contract is a point of tension. This is usually because they are looking for some free work or do not realize the true value of your services. Don’t give up just because the other party is questioning your value. Provide examples and show your area of expertise. Make your services irresistible so that it is only a question of when you can get started.</p>
+  </li>
+  <li>
+    <p>Contracts and legal documents often scare people. How many people read all of the terms and conditions for everything they use? Getting over the irrational fear of legal writing is the most important step. The language is not that difficult to understand once you sit down and decide to read the document. If it was super complex how would you explain it in court so that the judge will understand?</p>
+  </li>
+</ol>
+
+<p>Let me know on Twitter <a href="https://twitter.com/BowerRhys">@BowerRhys</a> if you use contracts or not and what your experience with them are.</p>
+ ]]></content>
+  </entry>
+
   <entry>
     <title type="text">Thoughts on Blogging Software</title>
     <link rel="alternate" type="text/html" href="http://www.rhysbower.com/2015/04/thoughts-blogging-software/"/>
