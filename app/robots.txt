@@ -6,3 +6,4 @@ sitemap:
 User-agent: *
 sitemap: {{ site.url }}/sitemap.xml
 Disallow:
+{{ site.url }}/privacy/
