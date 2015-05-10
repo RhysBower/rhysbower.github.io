@@ -4,13 +4,27 @@
   <link type="application/atom+xml" rel="self" href="http://www.rhysbower.com/atom.xml"/>
   <link href="http://www.rhysbower.com/"/>
   <id>http://www.rhysbower.com/</id>
-  <updated>2015-05-07T23:00:05Z</updated>
+  <updated>2015-05-09T21:07:05Z</updated>
   <author>
     <name>Rhys Bower</name>
     <email>bowerrhys@gmail.com</email>
   </author>
   <rights type="text">Copyright © 2015 Rhys Bower.</rights>
   
+  <entry>
+    <title type="text">Difficulty of that First Client</title>
+    <link rel="alternate" type="text/html" href="http://www.rhysbower.com/2015/05/difficulty-first-client/"/>
+    <id>http://www.rhysbower.com/2015/05/difficulty-first-client</id>
+    <published>2015-05-09T00:00:00Z</published>
+    <updated>2015-05-09T00:00:00Z</updated>
+    <content type="html"><![CDATA[ <p><strong>My struggle for the past two months</strong></p>
+
+<p>I haven’t been working on client work for that long, only a few months to be precise. However during that time I have learned so much about what it takes to become an entrepreneur. What it takes build your brand. And what it takes to sign your first client.</p>
+
+<p><a href="https://medium.com/@BowerRhys/the-difficulty-of-that-first-client-db7f3ea2ee27" target="_blank">Continue reading on Medium</a></p>
+ ]]></content>
+  </entry>
+
   <entry>
     <title type="text">Why You Need Contracts</title>
     <link rel="alternate" type="text/html" href="http://www.rhysbower.com/2015/05/why-need-contracts/"/>
