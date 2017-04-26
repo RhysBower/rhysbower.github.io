@@ -36,35 +36,8 @@ layout: default
     </div>
   </div>
   <div class="row pb-3">
-    <div class="col-xl-4 card-deck pb-2">
-      <div class="card">
-        <img class="card-img-top" src="https://placehold.it/348x180" alt="Card image cap">
-        <div class="card-block">
-          <h4 class="card-title">CPSC 110 Handin</h4>
-          <p class="card-text">Problem set submission service for CPSC 110 (Computation, Programs, and Programming).</p>
-          <a href="{{site.url}}/projects/" class="btn btn-primary">More info</a>
-        </div>
-      </div>
-    </div>
-    <div class="col-xl-4 card-deck pb-2">
-      <div class="card">
-        <img class="card-img-top" src="https://placehold.it/348x180" alt="Card image cap">
-        <div class="card-block">
-          <h4 class="card-title">Sidler International</h4>
-          <p class="card-text">Modern website with information about company products and inventory information.</p>
-          <a href="{{site.url}}/projects/" class="btn btn-primary">More info</a>
-        </div>
-      </div>
-    </div>
-    <div class="col-xl-4 card-deck">
-      <div class="card">
-        <img class="card-img-top" src="https://placehold.it/348x180" alt="Card image cap">
-        <div class="card-block">
-          <h4 class="card-title">Angela Huo Real Estate</h4>
-          <p class="card-text">Real estate website designed to showcase the latest properties on the market.</p>
-          <a href="{{site.url}}/projects/" class="btn btn-primary">More info</a>
-        </div>
-      </div>
-    </div>
+    {% for project in site.data.projects limit:4 %}
+      {% include project_card.html project=project %}
+    {% endfor %}
   </div>
 </div>
