@@ -1,0 +1,193 @@
+[
+  {
+    "img": "https://placehold.it/538x180",
+    "img-alt": "Card image cap",
+    "title": "CPSC 110 Handin",
+    "subtitle": "Assisgnment Submission Service",
+    "dates": "Sep 2016 – present",
+    "languages": ["Racket", "PHP", "Python", "Bash"],
+    "description": [
+      "Problem set submission service for CPSC 110 (Computation, Programs, and Programming).",
+      "Manage server infrastructure to ensure reasonable up-time of course services.",
+      "Developed web portal for course staff to publish graded files for students."
+    ]
+  },
+  {
+    "img": "https://placehold.it/538x180",
+    "img-alt": "Card image cap",
+    "title": "Sidler International",
+    "subtitle": "Website",
+    "dates": "Sep 2016 – present",
+    "languages": ["PHP", "JavaScript", "HTML", "CSS"],
+    "description": [
+      "Modern website with information about company products and inventory information.",
+      "Wrote custom WordPress plugins using PHP to parse inventory from internal management systems.",
+      "Designed system to allow searching for products matching given criteria and display results.",
+      "Used Advanced Custom Fields to create and editable back end for dealer details.",
+      "Created JSON API for dealer locations with caching of latitude and longitude of dealers using provided address and the Google Geocoding API."
+    ],
+    "links": [
+      {
+        "title": "Website",
+        "url": "http://www.sidler-international.com"
+      }
+    ]
+  },
+  {
+    "img": "https://placehold.it/538x180",
+    "img-alt": "Card image cap",
+    "title": "Angela Huo Real Estate",
+    "subtitle": "Website",
+    "dates": "Aug 2016 – present",
+    "languages": ["PHP", "JavaScript", "HTML", "CSS"],
+    "description": [
+      "Real estate website designed to showcase the latest properties on the market."
+    ],
+    "links": [
+      {
+        "title": "Website",
+        "url": "http://www.angelahuo.com"
+      }
+    ]
+  },
+  {
+    "img": "https://placehold.it/538x180",
+    "img-alt": "Card image cap",
+    "title": "Personal Portfolio",
+    "subtitle": "Website",
+    "dates": "Feb 2015 – present",
+    "languages": ["PHP", "JavaScript", "HTML", "CSS"],
+    "description": [
+      "Personal portfolio to showcase past work.",
+      "Designed website using Bootstrap with custom HTML and CSS.",
+      "Designed system to allow searching for products matching given criteria and display results."
+    ],
+    "links": [
+      {
+        "title": "Code",
+        "url": "https://github.com/RhysBower/rhysbower.github.io"
+      }
+    ]
+  },
+  {
+    "img": "https://placehold.it/538x180",
+    "img-alt": "Card image cap",
+    "title": "BitFit",
+    "subtitle": "???",
+    "dates": "May 2017 – Aug 2017",
+    "languages": ["JavaScript"],
+    "description": [
+      "System to help teach C/C++ program."
+    ],
+    "links": [
+      {
+        "title": "Code",
+        "url": "https://github.com/celinaberg/BitFit"
+      }
+    ]
+  },
+  {
+    "img": "https://placehold.it/538x180",
+    "img-alt": "Card image cap",
+    "title": "AirBC",
+    "subtitle": "Web App",
+    "dates": "Jan 2017 – Apr 2017",
+    "languages": ["PHP", "MySQL", "Twig", "jQuery", "HTML", "CSS"],
+    "description": [
+      "Website for fictional airline, AirBC, that allows customers to book tickets and staff to edit associated data including aircraft status, routes, and flights.",
+      "Designed and implemented the website framework including a page router and database abstraction layer using PHP.",
+      "Designed an account system with account permissions, password salting and hashing to maintain a secure system."
+    ]
+  },
+  {
+    "img": "https://placehold.it/538x180",
+    "img-alt": "Card image cap",
+    "title": "insightUBC",
+    "subtitle": "Web App",
+    "dates": "Jan 2017 – Apr 2017",
+    "languages": ["Node", "TypeScript", "HTML", "CSS"],
+    "description": [
+      "Web app to search for courses and rooms at UBC with given criteria, and schedule courses into available rooms.",
+      "Implemented system to cache input data in JSON to be easily used for future requests.",
+      "Developed system to filter course sections based on search in TypeScript.",
+      "Designed abstraction around provided Geo Service API to ease development by using promises.",
+      "Implemented aggregate functions over the data set to be able to answer queries such as \"How many students have taken CPSC 110?\"",
+      "Designed Course Explorer and Rooms Explorer to allow users to visually query for courses and rooms with features they are interested in."
+    ]
+  },
+  {
+    "img": "https://placehold.it/538x180",
+    "img-alt": "Card image cap",
+    "title": "Ignite Fitness",
+    "subtitle": "Android/iOS App",
+    "dates": "May 2016 – Oct 2016",
+    "languages": ["JavaScript", "HTML", "CSS"],
+    "description": [
+      "Android and iOS app along with marketing website for Ignite Fitness, a fitness plan program.",
+      "Designed marketing website to promote the launch of the fitness program.",
+      "Created cross platform iOS and Android app using the Ionic framework to reduce time to market.",
+      "Integrated with Stripe for in-app purchase of fitness plans.",
+      "Deployed server infrastructure on AWS (Amazon Web Services) to achieve high up-time."
+    ],
+    "links": [
+      {
+        "title": "Website",
+        "url": "https://www.yourignitefitness.com/"
+      },
+      {
+        "title": "App Store",
+        "url": "https://itunes.apple.com/us/app/ignite-fitness/id1147292248"
+      },
+      {
+        "title": "Google Play",
+        "url": "https://play.google.com/store/apps/details?id=com.ignitefitness.mobile"
+      }
+    ]
+  },
+  {
+    "img": "https://placehold.it/538x180",
+    "img-alt": "Card image cap",
+    "title": "Robotix Education",
+    "subtitle": "Website",
+    "dates": "Apr 2016 – Oct 2016",
+    "languages": ["PHP", "HTML", "CSS"],
+    "description": [
+      "Online store for robots targeting the K-12 market.",
+      "Integrated WordPress, WooCommerce, and Stripe to allow customers to create accounts and purchase products.",
+      "Styled site with custom CSS to match brand of Robotix Education."
+    ],
+    "links": [
+      {
+        "title": "Website",
+        "url": "https://robotixeducation.ca/"
+      }
+    ]
+  },
+  {
+    "img": "https://placehold.it/538x180",
+    "img-alt": "Card image cap",
+    "title": "Mind the Gap",
+    "subtitle": "Android App",
+    "dates": "Mar 2016 – Apr 2016",
+    "languages": ["Java"],
+    "description": [
+      "Android app for London Underground to display routes and closest stations.",
+      "Implemented provided model to display London Underground data in Java.",
+      "Designed parser for Transport for London data.",
+      "Extended provided Android application user interface to use data from developed model."
+    ]
+  },
+  {
+    "img": "https://placehold.it/538x180",
+    "img-alt": "Card image cap",
+    "title": "CHEM 3615 Online",
+    "subtitle": "Web App",
+    "dates": "",
+    "languages": ["PHP", "HTML", "CSS"],
+    "description": [
+      "Online pre-lab software for BCIT CHEM 3615.",
+      "Designed account system with student and instructor permissions using PHP and MySQL.",
+      "Built interface to allow instructors to view grades of students and students to view correct answers after the due date."
+    ]
+  }
+]

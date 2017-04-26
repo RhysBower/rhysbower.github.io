@@ -10,7 +10,7 @@
 .bash {
   background: #89e051;
 }
-.js {
+.javascript {
   background: #f1e05a;
 }
 .html {
@@ -19,9 +19,13 @@
 .css {
   background: #563d7c;
 }
-.ts {
+.typescript {
   background: #2b7489;
 }
 .java {
   background: #b07219;
+}
+
+.card-link {
+  position: relative;
 }
