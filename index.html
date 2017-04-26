@@ -1,64 +1,70 @@
-<!DOCTYPE HTML>
-<!--
-	Aerial by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
-<html>
-	<head>
-		<title>Rhys Bower</title>
-		<meta property="og:title" content="Rhys Bower" />
-		<meta property="og:description" content="Making the world a better place." />
-		<meta property="og:type" content="profile" />
-		<meta property="profile:first_name" content="Rhys" />
-		<meta property="profile:last_name" content="Bower" />
-		<meta property="profile:gender" content="male" />
-		<meta property="fb:profile_id" content="100005478151820" />
-		<meta property="og:url" content="http://www.rhysbower.com/" />
-		<meta property="og:image" content="http://www.rhysbower.com/img/profile.jpg" />
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1" />
-		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
-		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
-	</head>
-	<body class="loading">
-		<div id="wrapper">
-			<div id="bg"></div>
-			<div id="overlay"></div>
-			<div id="main">
-
-				<!-- Header -->
-					<header id="header">
-						<span itemscope itemtype="http://schema.org/Person">
-							<h1 itemprop="name">Rhys Bower</h1>
-							<p>Making the world a better place.</p>
-							<nav>
-								<ul>
-									<li><a href="https://www.linkedin.com/in/rhysbower/" class="icon fa-linkedin" target="_blank" itemprop="sameAs"><span class="label">LinkedIn</span></a></li>
-									<li><a href="https://github.com/RhysBower" class="icon fa-github" target="_blank" itemprop="sameAs"><span class="label">Github</span></a></li>
-									<li><a href="https://www.facebook.com/bower.rhys" class="icon fa-facebook" target="_blank" itemprop="sameAs"><span class="label">Facebook</span></a></li>
-	                <li><a href="https://www.quora.com/profile/Rhys-Bower" class="icon fa-quora" target="_blank" itemprop="sameAs"><span class="label">Quora</span></a></li>
-									<li><a href="mailto:rhys.bower@alumni.ubc.ca" class="icon fa-envelope-o" target="_blank" itemprop="email"><span class="label">Email</span></a></li>
-									<li><a href="http://www.cific.ca/" class="icon fa-building" target="_blank"><span class="label">Cific</span></a></li>
-								</ul>
-							</nav>
-						</span>
-					</header>
-
-				<!-- Footer -->
-					<footer id="footer">
-						<span class="copyright">Rhys Bower &copy; 2017 &mdash; Design: <a href="http://html5up.net">HTML5 UP</a>.</span>
-					</footer>
-
-			</div>
-		</div>
-		<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
-		<script>
-			window.onload = function() { document.body.className = ''; }
-			window.ontouchmove = function() { return false; }
-			window.onorientationchange = function() { document.body.scrollTop = 0; }
-		</script>
-	</body>
-</html>
+---
+layout: default
+---
+<!--<meta property="og:title" content="Rhys Bower" />
+<meta property="og:description" content="Making the world a better place." />
+<meta property="og:type" content="profile" />
+<meta property="profile:first_name" content="Rhys" />
+<meta property="profile:last_name" content="Bower" />
+<meta property="profile:gender" content="male" />
+<meta property="fb:profile_id" content="100005478151820" />
+<meta property="og:url" content="http://www.rhysbower.com/" />
+<meta property="og:image" content="http://www.rhysbower.com/img/profile.jpg" /> -->
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-md-12">
+      <img src="https://placehold.it/2560x1000" alt="" class="img-fluid">
+    </div>
+  </div>
+</div>
+<div class="container">
+  <div class="row">
+    <img src="{{site.url}}/img/profile.jpg" alt="" class="rounded-circle mx-auto" width="250" height="250" style="margin-top: -125px;">
+  </div>
+  <div class="row">
+    <div class="col-sm-12">
+      <h1 class="text-center">Rhys Bower</h1>
+      <h6 class="text-center">Making the world a better place.</h6>
+      <p>I am a developer at heart and love building tools that make the world a better place. There is nothing greater than breaking a hard problem down into small pieces, working and watching something amazing come to life.</p>
+      <p>When I’m not working, I am usually riding my bike or swimming, mostly so I can cook and eat some delicious food (if I say so myself).</p>
+      <p>I am excited about new opportunities in the tech industry. Feel free to say <a href="{{site.url}}/contact/">hello</a> if you would like to talk. <a href="{{site.url}}/about/">Learn more about me.</a></p>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-sm-12">
+      <h3>Recent Projects <small><a href="{{site.url}}/projects/">See more</a></small></h3>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-sm-4 card-deck">
+      <div class="card">
+        <img class="card-img-top" src="https://placehold.it/348x180" alt="Card image cap">
+        <div class="card-block">
+          <h4 class="card-title">CPSC 110 Handin</h4>
+          <p class="card-text">Problem set submission service for CPSC 110 (Computation, Programs, and Programming).</p>
+          <a href="{{site.url}}/projects/" class="btn btn-primary">More info</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-4 card-deck">
+      <div class="card">
+        <img class="card-img-top" src="https://placehold.it/348x180" alt="Card image cap">
+        <div class="card-block">
+          <h4 class="card-title">Sidler International</h4>
+          <p class="card-text">Modern website with information about company products and inventory information.</p>
+          <a href="{{site.url}}/projects/" class="btn btn-primary">More info</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-4 card-deck">
+      <div class="card">
+        <img class="card-img-top" src="https://placehold.it/348x180" alt="Card image cap">
+        <div class="card-block">
+          <h4 class="card-title">Angela Huo Real Estate</h4>
+          <p class="card-text">Real estate website designed to showcase the latest properties on the market.</p>
+          <a href="{{site.url}}/projects/" class="btn btn-primary">More info</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,4 +1,0 @@
-User-agent: *
-sitemap: http://www.rhysbower.com/sitemap.xml
-Disallow:
-http://www.rhysbower.com/privacy/

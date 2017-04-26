@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Site settings
 title: Rhys Bower
 author: Rhys Bower
@@ -20,3 +21,6 @@ markdown: kramdown
 keep_files: ['./**']
 
 production: false
+=======
+url: "http://localhost:4000"
+>>>>>>> First draft of redesign.
