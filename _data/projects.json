@@ -2,6 +2,25 @@
   {
     "img": "https://placehold.it/538x180",
     "img-alt": "Card image cap",
+    "title": "BitFit",
+    "subtitle": "C Programming Teaching Tool",
+    "dates": "May 2017 – present",
+    "languages": ["javascript"],
+    "description": [
+      "Problem set submission service for CPSC 110 (Computation, Programs, and Programming).",
+      "Manage server infrastructure to ensure reasonable up-time of course services.",
+      "Developed web portal for course staff to publish graded files for students."
+    ],
+    "links": [
+      {
+        "title": "Code",
+        "url": "https://github.com/celinaberg/BitFit"
+      }
+    ]
+  },
+  {
+    "img": "https://placehold.it/538x180",
+    "img-alt": "Card image cap",
     "title": "CPSC 110 Handin",
     "subtitle": "Assisgnment Submission Service",
     "dates": "Sep 2016 – present",
@@ -66,23 +85,6 @@
       {
         "title": "Code",
         "url": "https://github.com/RhysBower/rhysbower.github.io"
-      }
-    ]
-  },
-  {
-    "img": "https://placehold.it/538x180",
-    "img-alt": "Card image cap",
-    "title": "BitFit",
-    "subtitle": "???",
-    "dates": "May 2017 – Aug 2017",
-    "languages": ["JavaScript"],
-    "description": [
-      "System to help teach C/C++ program."
-    ],
-    "links": [
-      {
-        "title": "Code",
-        "url": "https://github.com/celinaberg/BitFit"
       }
     ]
   },
