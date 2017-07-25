@@ -5,7 +5,7 @@
     "title": "BitFit",
     "subtitle": "C Programming Teaching Tool",
     "dates": "May 2017 – present",
-    "languages": ["javascript"],
+    "languages": ["JavaScript"],
     "description": [
       "Problem set submission service for CPSC 110 (Computation, Programs, and Programming).",
       "Manage server infrastructure to ensure reasonable up-time of course services.",
@@ -57,16 +57,12 @@
     "img-alt": "Card image cap",
     "title": "Angela Huo Real Estate",
     "subtitle": "Website",
-    "dates": "Aug 2016 – present",
+    "dates": "Aug 2016 – July 2017",
     "languages": ["PHP", "JavaScript", "HTML", "CSS"],
     "description": [
-      "Real estate website designed to showcase the latest properties on the market."
-    ],
-    "links": [
-      {
-        "title": "Website",
-        "url": "http://www.angelahuo.com"
-      }
+      "Real estate website designed to showcase the latest properties on the market.",
+      "Helped my team of two by providing architectural guidance and ensuring team members weren't blocked.",
+      "Fetch listing data from MLS and create WordPress backend to add additional information."
     ]
   },
   {
@@ -147,7 +143,7 @@
     ]
   },
   {
-    "img": "https://placehold.it/538x180",
+    "img": "/img/projects/robotixeducation.png",
     "img-alt": "Card image cap",
     "title": "Robotix Education",
     "subtitle": "Website",
