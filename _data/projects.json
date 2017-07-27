@@ -1,15 +1,14 @@
 [
   {
-    "img": "https://placehold.it/538x180",
+    "img": "/img/projects/bitfit.png",
     "img-alt": "Card image cap",
     "title": "BitFit",
     "subtitle": "C Programming Teaching Tool",
     "dates": "May 2017 – present",
     "languages": ["JavaScript"],
     "description": [
-      "Problem set submission service for CPSC 110 (Computation, Programs, and Programming).",
-      "Manage server infrastructure to ensure reasonable up-time of course services.",
-      "Developed web portal for course staff to publish graded files for students."
+      "An app designed to help students learn to write and read C code.",
+      "Integrate with the UBC single sign on service, CWL, using SAML and LDAP."
     ],
     "links": [
       {
@@ -19,20 +18,20 @@
     ]
   },
   {
-    "img": "https://placehold.it/538x180",
+    "img": "/img/projects/handin.png",
     "img-alt": "Card image cap",
     "title": "CPSC 110 Handin",
     "subtitle": "Assisgnment Submission Service",
     "dates": "Sep 2016 – present",
     "languages": ["Racket", "PHP", "Python", "Bash"],
     "description": [
-      "Problem set submission service for CPSC 110 (Computation, Programs, and Programming).",
+      "Problem set submission service for CPSC 110 at UBC.",
       "Manage server infrastructure to ensure reasonable up-time of course services.",
       "Developed web portal for course staff to publish graded files for students."
     ]
   },
   {
-    "img": "https://placehold.it/538x180",
+    "img": "/img/projects/sidlerinternational.png",
     "img-alt": "Card image cap",
     "title": "Sidler International",
     "subtitle": "Website",
@@ -66,7 +65,7 @@
     ]
   },
   {
-    "img": "https://placehold.it/538x180",
+    "img": "/img/projects/portfolio.png",
     "img-alt": "Card image cap",
     "title": "Personal Portfolio",
     "subtitle": "Website",
@@ -85,7 +84,7 @@
     ]
   },
   {
-    "img": "https://placehold.it/538x180",
+    "img": "/img/projects/airbc.png",
     "img-alt": "Card image cap",
     "title": "AirBC",
     "subtitle": "Web App",
@@ -98,7 +97,7 @@
     ]
   },
   {
-    "img": "https://placehold.it/538x180",
+    "img": "/img/projects/insightubc.png",
     "img-alt": "Card image cap",
     "title": "insightUBC",
     "subtitle": "Web App",
@@ -114,10 +113,10 @@
     ]
   },
   {
-    "img": "https://placehold.it/538x180",
+    "img": "/img/projects/ignitefitness.png",
     "img-alt": "Card image cap",
     "title": "Ignite Fitness",
-    "subtitle": "Android/iOS App",
+    "subtitle": "Website, Android, and iOS App",
     "dates": "May 2016 – Oct 2016",
     "languages": ["JavaScript", "HTML", "CSS"],
     "description": [
@@ -180,12 +179,27 @@
     "img-alt": "Card image cap",
     "title": "CHEM 3615 Online",
     "subtitle": "Web App",
-    "dates": "",
+    "dates": "2013",
     "languages": ["PHP", "HTML", "CSS"],
     "description": [
       "Online pre-lab software for BCIT CHEM 3615.",
       "Designed account system with student and instructor permissions using PHP and MySQL.",
       "Built interface to allow instructors to view grades of students and students to view correct answers after the due date."
+    ]
+  },
+  {
+    "img": "https://placehold.it/538x180",
+    "img-alt": "Card image cap",
+    "title": "Game Time",
+    "subtitle": "Games",
+    "dates": "2008 - 2012",
+    "languages": ["ActionScript"],
+    "description": [
+      "While learning to program I wrote several games with Flash and ActionScript.",
+      "<a href=\"#\">The Unbeatable Test</a> Can you make it to the end alive?",
+      "<a href=\"#\">Fluffy Ball</a>Help Fluffy Ball bounce his way to freedom.",
+      "<a href=\"#\">UFO Ride 2</a> It looks like the alien has gotten himself into trouble again. Save him from the asteroids again or all of your hard work will be lost. As least his ship has a shield this time.",
+      "<a href=\"#\">UFO Ride</a> Help the alien avoid the asteroids while collecting money and diamonds."
     ]
   }
 ]
