@@ -1,6 +1,6 @@
 [
   {
-    "img": "/img/projects/bitfit.png",
+    "img": "/static/img/projects/bitfit.png",
     "img-alt": "Card image cap",
     "title": "BitFit",
     "subtitle": "C Programming Teaching Tool",
@@ -18,7 +18,7 @@
     ]
   },
   {
-    "img": "/img/projects/handin.png",
+    "img": "/static/img/projects/handin.png",
     "img-alt": "Card image cap",
     "title": "CPSC 110 Handin",
     "subtitle": "Assisgnment Submission Service",
@@ -31,7 +31,7 @@
     ]
   },
   {
-    "img": "/img/projects/sidlerinternational.png",
+    "img": "/static/img/projects/sidlerinternational.png",
     "img-alt": "Card image cap",
     "title": "Sidler International",
     "subtitle": "Website",
@@ -65,7 +65,7 @@
     ]
   },
   {
-    "img": "/img/projects/portfolio.png",
+    "img": "/static/img/projects/portfolio.png",
     "img-alt": "Card image cap",
     "title": "Personal Portfolio",
     "subtitle": "Website",
@@ -84,7 +84,7 @@
     ]
   },
   {
-    "img": "/img/projects/airbc.png",
+    "img": "/static/img/projects/airbc.png",
     "img-alt": "Card image cap",
     "title": "AirBC",
     "subtitle": "Web App",
@@ -97,7 +97,7 @@
     ]
   },
   {
-    "img": "/img/projects/insightubc.png",
+    "img": "/static/img/projects/insightubc.png",
     "img-alt": "Card image cap",
     "title": "insightUBC",
     "subtitle": "Web App",
@@ -113,7 +113,7 @@
     ]
   },
   {
-    "img": "/img/projects/ignitefitness.png",
+    "img": "/static/img/projects/ignitefitness.png",
     "img-alt": "Card image cap",
     "title": "Ignite Fitness",
     "subtitle": "Website, Android, and iOS App",
@@ -142,7 +142,7 @@
     ]
   },
   {
-    "img": "/img/projects/robotixeducation.png",
+    "img": "/static/img/projects/robotixeducation.png",
     "img-alt": "Card image cap",
     "title": "Robotix Education",
     "subtitle": "Website",
