@@ -1,22 +1,3 @@
-# Site settings
-title: Rhys Bower
-author: Rhys Bower
-email: bowerrhys@gmail.com
-description: >
-  I'm an aspiring local developer
-  working on a number of programming
-  projects. I will be studying Computer Science at UBC next year.
-image: /img/profile.jpg
-copyright: Copyright © 2015 Rhys Bower.
-permalink: /:year/:month/:title/
-url: "http://localhost:3000"
-
-source: app
-timezone: America/Vancouver
-
-# Build settings
-markdown: kramdown
-
-keep_files: ['./**']
-
-production: false
+url: "http://localhost:4000"
+source: site
+destination: docs
