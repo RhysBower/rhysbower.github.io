@@ -4,7 +4,7 @@
     "img-alt": "Card image cap",
     "title": "BitFit",
     "subtitle": "C Programming Teaching Tool",
-    "dates": "May 2017 – present",
+    "dates": "May 2017 – Present",
     "languages": ["JavaScript"],
     "description": [
       "An app designed to help students learn to write and read C code.",
@@ -22,7 +22,7 @@
     "img-alt": "Card image cap",
     "title": "CPSC 110 Handin",
     "subtitle": "Assisgnment Submission Service",
-    "dates": "Sep 2016 – present",
+    "dates": "Sep 2016 – Present",
     "languages": ["Racket", "PHP", "Python", "Bash"],
     "description": [
       "Problem set submission service for CPSC 110 at UBC.",
@@ -35,7 +35,7 @@
     "img-alt": "Card image cap",
     "title": "Sidler International",
     "subtitle": "Website",
-    "dates": "Sep 2016 – present",
+    "dates": "Sep 2016 – May 2017",
     "languages": ["PHP", "JavaScript", "HTML", "CSS"],
     "description": [
       "Modern website with information about company products and inventory information.",
@@ -69,7 +69,7 @@
     "img-alt": "Card image cap",
     "title": "Personal Portfolio",
     "subtitle": "Website",
-    "dates": "Feb 2015 – present",
+    "dates": "Feb 2015 – Present",
     "languages": ["PHP", "JavaScript", "HTML", "CSS"],
     "description": [
       "Personal portfolio to showcase past work.",
