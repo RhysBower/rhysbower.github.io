@@ -128,10 +128,6 @@
     ],
     "links": [
       {
-        "title": "Website",
-        "url": "https://www.yourignitefitness.com/"
-      },
-      {
         "title": "App Store",
         "url": "https://itunes.apple.com/us/app/ignite-fitness/id1147292248"
       },
@@ -196,10 +192,10 @@
     "languages": ["ActionScript"],
     "description": [
       "While learning to program I wrote several games with Flash and ActionScript.",
-      "<a href=\"#\">The Unbeatable Test</a> Can you make it to the end alive?",
-      "<a href=\"#\">Fluffy Ball</a>Help Fluffy Ball bounce his way to freedom.",
-      "<a href=\"#\">UFO Ride 2</a> It looks like the alien has gotten himself into trouble again. Save him from the asteroids again or all of your hard work will be lost. As least his ship has a shield this time.",
-      "<a href=\"#\">UFO Ride</a> Help the alien avoid the asteroids while collecting money and diamonds."
+      "<p class=\"m-0\"><a href=\"https://github.com/RhysBower/TheUnbeatableTest\" target=\"_blank\">The Unbeatable Test</a> Can you make it to the end alive?</p>",
+      "<p class=\"m-0\"><a href=\"https://github.com/RhysBower/FluffyBall\" target=\"_blank\">Fluffy Ball</a> Help Fluffy Ball bounce his way to freedom.</p>",
+      "<p class=\"m-0\"><a href=\"https://github.com/RhysBower/UfoRide2\" target=\"_blank\">UFO Ride 2</a> It looks like the alien has gotten himself into trouble again. Save him from the asteroids again or all of your hard work will be lost. As least his ship has a shield this time.</p>",
+      "<p class=\"m-0\"><a href=\"https://github.com/RhysBower/UfoRide\" target=\"_blank\">UFO Ride</a> Help the alien avoid the asteroids while collecting money and diamonds.</p>"
     ]
   }
 ]
