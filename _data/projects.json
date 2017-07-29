@@ -9,7 +9,7 @@
     "languages": ["JavaScript"],
     "description": [
       "An app designed to help students learn to write and read C code.",
-      "Integrate with the UBC single sign on service, CWL, using SAML and LDAP.",
+      "Integrate with the UBC single sign-on service, CWL, using SAML and LDAP.",
       "Create system to grade student submissions and view results."
     ],
     "links": [
