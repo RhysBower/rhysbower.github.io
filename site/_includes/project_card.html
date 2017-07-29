@@ -1,7 +1,11 @@
 <div class="col-md-6 pb-3">
   <div class="card">
-    <img class="card-img-top img-fluid" src="{{ include.project.img }}" alt="{{ include.project.img-alt }}">
-    <div class="card-img-overlay card-inverse">
+    {% if include.project.img %}
+      <img class="card-img-top img-fluid" src="{{ include.project.img }}" alt="{{ include.project.img-alt }}">
+      <div class="card-img-overlay card-inverse">
+    {% else %}
+      <div class="card-block">
+    {% endif %}
       <h4 class="card-title">{{ include.project.title }}</h4>
       <h6 class="card-subtitle">{{ include.project.subtitle }}</h6>
     </div>
@@ -22,7 +26,7 @@
         <li class="list-group-item">{{ line }}</li>
       {% endfor %}
     </ul>
-    {% if include.project.links != nil %}
+    {% if include.project.links %}
       <div class="card-block">
         {% for link in include.project.links %}
           <a href="{{ link.url }}" target="_blank" class="card-link">{{ link.title }}</a>

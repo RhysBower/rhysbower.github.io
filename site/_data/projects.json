@@ -1,7 +1,7 @@
 [
   {
     "img": "/static/img/projects/bitfit.png",
-    "img-alt": "Card image cap",
+    "img-alt": "BitFit Manage All Questions admin interface",
     "title": "BitFit",
     "subtitle": "C Programming Teaching Tool",
     "dates": "May 2017 – Present",
@@ -20,7 +20,7 @@
   },
   {
     "img": "/static/img/projects/handin.png",
-    "img-alt": "Card image cap",
+    "img-alt": "Handin problem set managemnt interface",
     "title": "CPSC 110 Handin",
     "subtitle": "Assisgnment Submission Service",
     "dates": "Sep 2016 – Present",
@@ -33,7 +33,7 @@
   },
   {
     "img": "/static/img/projects/sidlerinternational.png",
-    "img-alt": "Card image cap",
+    "img-alt": "Sidler International home page, large mirror cabinet on wall",
     "title": "Sidler International",
     "subtitle": "Website",
     "dates": "Sep 2016 – May 2017",
@@ -53,21 +53,40 @@
     ]
   },
   {
-    "img": "https://placehold.it/538x180",
-    "img-alt": "Card image cap",
-    "title": "Angela Huo Real Estate",
+    "img": "/static/img/projects/robotixeducation.png",
+    "img-alt": "Robotix Education website desplaying an ad for the Dash and Dot robots.",
+    "title": "Robotix Education",
     "subtitle": "Website",
-    "dates": "Aug 2016 – July 2017",
-    "languages": ["PHP", "JavaScript", "HTML", "CSS"],
+    "dates": "Apr 2016 – Oct 2016",
+    "languages": ["PHP", "HTML", "CSS"],
     "description": [
-      "Real estate website designed to showcase the latest properties on the market.",
-      "Helped my team of two by providing architectural guidance and ensuring team members weren't blocked.",
-      "Fetch listing data from MLS and create WordPress backend to add additional information."
+      "Online store for robots targeting the K-12 market.",
+      "Integrated WordPress, WooCommerce, and Stripe to allow customers to create accounts and purchase products.",
+      "Styled site with custom CSS to match brand of Robotix Education."
+    ],
+    "links": [
+      {
+        "title": "Website",
+        "url": "https://robotixeducation.ca/"
+      }
+    ]
+  },
+  {
+    "img": "/static/img/projects/airbc.png",
+    "img-alt": "AirBC aircraft managment interface",
+    "title": "AirBC",
+    "subtitle": "Web App",
+    "dates": "Jan 2017 – Apr 2017",
+    "languages": ["PHP", "MySQL", "Twig", "jQuery", "HTML", "CSS"],
+    "description": [
+      "Website for fictional airline, AirBC, that allows customers to book tickets and staff to edit associated data including aircraft status, routes, and flights.",
+      "Designed and implemented the website framework including a page router and database abstraction layer using PHP.",
+      "Designed an account system with account permissions, password salting and hashing to maintain a secure system."
     ]
   },
   {
     "img": "/static/img/projects/portfolio.png",
-    "img-alt": "Card image cap",
+    "img-alt": "My personal website home page",
     "title": "Personal Portfolio",
     "subtitle": "Website",
     "dates": "Feb 2015 – Present",
@@ -85,21 +104,8 @@
     ]
   },
   {
-    "img": "/static/img/projects/airbc.png",
-    "img-alt": "Card image cap",
-    "title": "AirBC",
-    "subtitle": "Web App",
-    "dates": "Jan 2017 – Apr 2017",
-    "languages": ["PHP", "MySQL", "Twig", "jQuery", "HTML", "CSS"],
-    "description": [
-      "Website for fictional airline, AirBC, that allows customers to book tickets and staff to edit associated data including aircraft status, routes, and flights.",
-      "Designed and implemented the website framework including a page router and database abstraction layer using PHP.",
-      "Designed an account system with account permissions, password salting and hashing to maintain a secure system."
-    ]
-  },
-  {
     "img": "/static/img/projects/insightubc.png",
-    "img-alt": "Card image cap",
+    "img-alt": "insightUBC course query builder",
     "title": "insightUBC",
     "subtitle": "Web App",
     "dates": "Jan 2017 – Apr 2017",
@@ -115,7 +121,7 @@
   },
   {
     "img": "/static/img/projects/ignitefitness.png",
-    "img-alt": "Card image cap",
+    "img-alt": "Ignite Fitness marketing website",
     "title": "Ignite Fitness",
     "subtitle": "Website, Android, and iOS App",
     "dates": "May 2016 – Oct 2016",
@@ -139,27 +145,6 @@
     ]
   },
   {
-    "img": "/static/img/projects/robotixeducation.png",
-    "img-alt": "Card image cap",
-    "title": "Robotix Education",
-    "subtitle": "Website",
-    "dates": "Apr 2016 – Oct 2016",
-    "languages": ["PHP", "HTML", "CSS"],
-    "description": [
-      "Online store for robots targeting the K-12 market.",
-      "Integrated WordPress, WooCommerce, and Stripe to allow customers to create accounts and purchase products.",
-      "Styled site with custom CSS to match brand of Robotix Education."
-    ],
-    "links": [
-      {
-        "title": "Website",
-        "url": "https://robotixeducation.ca/"
-      }
-    ]
-  },
-  {
-    "img": "https://placehold.it/538x180",
-    "img-alt": "Card image cap",
     "title": "Mind the Gap",
     "subtitle": "Android App",
     "dates": "Mar 2016 – Apr 2016",
@@ -172,8 +157,17 @@
     ]
   },
   {
-    "img": "https://placehold.it/538x180",
-    "img-alt": "Card image cap",
+    "title": "Angela Huo Real Estate",
+    "subtitle": "Website",
+    "dates": "Aug 2016 – July 2017",
+    "languages": ["PHP", "JavaScript", "HTML", "CSS"],
+    "description": [
+      "Real estate website designed to showcase the latest properties on the market.",
+      "Helped my team of two by providing architectural guidance and ensuring team members weren't blocked.",
+      "Fetch listing data from MLS and create WordPress backend to add additional information."
+    ]
+  },
+  {
     "title": "CHEM 3615 Online",
     "subtitle": "Web App",
     "dates": "2013",
@@ -185,8 +179,6 @@
     ]
   },
   {
-    "img": "https://placehold.it/538x180",
-    "img-alt": "Card image cap",
     "title": "Game Time",
     "subtitle": "Games",
     "dates": "2008 - 2012",
