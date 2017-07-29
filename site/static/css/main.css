@@ -45,3 +45,10 @@
   background-image: url({{site.url}}/static/img/cover.jpg);
   background-position: center;
 }
+
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) { 
+    .cover {
+        background-image:url({{site.url}}/static/img/cover@2x.jpg);
+        background-size: cover;
+    }
+}
