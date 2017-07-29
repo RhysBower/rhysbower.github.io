@@ -1,6 +1,7 @@
 [
   {
-    "img": "/static/img/projects/bitfit.png",
+    "img": "static/img/projects/bitfit.png",
+    "img2x": "static/img/projects/bitfit@2x.png",
     "img-alt": "BitFit Manage All Questions admin interface",
     "title": "BitFit",
     "subtitle": "C Programming Teaching Tool",
@@ -19,7 +20,8 @@
     ]
   },
   {
-    "img": "/static/img/projects/handin.png",
+    "img": "static/img/projects/handin.png",
+    "img2x": "static/img/projects/handin@2x.png",
     "img-alt": "Handin problem set managemnt interface",
     "title": "CPSC 110 Handin",
     "subtitle": "Assisgnment Submission Service",
@@ -32,7 +34,8 @@
     ]
   },
   {
-    "img": "/static/img/projects/sidlerinternational.png",
+    "img": "static/img/projects/sidlerinternational.png",
+    "img2x": "static/img/projects/sidlerinternational@2x.png",
     "img-alt": "Sidler International home page, large mirror cabinet on wall",
     "title": "Sidler International",
     "subtitle": "Website",
@@ -53,7 +56,8 @@
     ]
   },
   {
-    "img": "/static/img/projects/robotixeducation.png",
+    "img": "static/img/projects/robotixeducation.png",
+    "img2x": "static/img/projects/robotixeducation@2x.png",
     "img-alt": "Robotix Education website desplaying an ad for the Dash and Dot robots.",
     "title": "Robotix Education",
     "subtitle": "Website",
@@ -72,7 +76,8 @@
     ]
   },
   {
-    "img": "/static/img/projects/airbc.png",
+    "img": "static/img/projects/airbc.png",
+    "img2x": "static/img/projects/airbc@2x.png",
     "img-alt": "AirBC aircraft managment interface",
     "title": "AirBC",
     "subtitle": "Web App",
@@ -85,7 +90,8 @@
     ]
   },
   {
-    "img": "/static/img/projects/portfolio.png",
+    "img": "static/img/projects/portfolio.png",
+    "img@2x": "/static/img/projects/portfolio.png",
     "img-alt": "My personal website home page",
     "title": "Personal Portfolio",
     "subtitle": "Website",
@@ -104,7 +110,8 @@
     ]
   },
   {
-    "img": "/static/img/projects/insightubc.png",
+    "img": "static/img/projects/insightubc.png",
+    "img2x": "static/img/projects/insightubc@2x.png",
     "img-alt": "insightUBC course query builder",
     "title": "insightUBC",
     "subtitle": "Web App",
@@ -120,7 +127,8 @@
     ]
   },
   {
-    "img": "/static/img/projects/ignitefitness.png",
+    "img": "static/img/projects/ignitefitness.png",
+    "img2x": "static/img/projects/insightubc@2x.png",
     "img-alt": "Ignite Fitness marketing website",
     "title": "Ignite Fitness",
     "subtitle": "Website, Android, and iOS App",
