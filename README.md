@@ -1,5 +1,7 @@
 # Rhys Bower
 
+My personal website where I highlight my past projects.
+
 ## Setup
 ```
 bundle install
