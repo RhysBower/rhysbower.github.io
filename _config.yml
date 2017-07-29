@@ -1,2 +1,3 @@
 url: "http://www.rhysbower.com"
 source: site
+includes_dir: site/_includes
