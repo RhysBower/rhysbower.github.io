@@ -91,7 +91,7 @@
   },
   {
     "img": "static/img/projects/portfolio.png",
-    "img@2x": "/static/img/projects/portfolio.png",
+    "img@2x": "static/img/projects/portfolio@2x.png",
     "img-alt": "My personal website home page",
     "title": "Personal Portfolio",
     "subtitle": "Website",
