@@ -29,7 +29,7 @@
     {% if include.project.links %}
       <div class="card-block">
         {% for link in include.project.links %}
-          <a href="{{ link.url }}" target="_blank" class="card-link">{{ link.title }}</a>
+          <a href="{{ link.url }}" target="_blank" rel="noopener" class="card-link">{{ link.title }}</a>
         {% endfor %}
       </div>
     {% endif %}
