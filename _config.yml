@@ -1,3 +1,5 @@
 url: "http://www.rhysbower.com"
 exclude: [README.md, original, Gemfile, Gemfile.lock, CNAME]
 env: "prod"
+sass:
+    style: compressed
