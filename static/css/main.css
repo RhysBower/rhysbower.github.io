@@ -46,9 +46,14 @@
   background-position: center;
 }
 
-@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) { 
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
     .cover {
         background-image:url({{site.url}}/static/img/cover@2x.jpg);
         background-size: cover;
     }
+}
+
+.bg-main {
+  background-color: #425a76;
+  color: #f7f7f7;
 }
