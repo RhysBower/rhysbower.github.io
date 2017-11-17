@@ -1,7 +1,8 @@
 ---
 ---
 {
-    "name": "",
+    "name": "Rhys Bower",
+    "short_name": "Rhys Bower",
     "icons": [
         {
             "src": "{{ site.url }}/android-chrome-192x192.png",
