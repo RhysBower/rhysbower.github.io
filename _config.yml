@@ -1,4 +1,4 @@
-url: "http://www.rhysbower.com"
+url: "https://www.rhysbower.com"
 exclude: [README.md, original, Gemfile, Gemfile.lock, CNAME]
 env: "prod"
 sass:
