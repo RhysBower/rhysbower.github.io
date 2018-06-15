@@ -1,9 +1,0 @@
----
-layout: null
-sitemap:
-  exclude: 'yes'
----
-User-agent: *
-sitemap: {{ site.url }}/sitemap.xml
-Disallow:
-{{ site.url }}/privacy/
