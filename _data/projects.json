@@ -181,18 +181,5 @@
       "Designed account system with student and instructor permissions using PHP and MySQL.",
       "Built interface to allow instructors to view grades of students and students to view correct answers after the due date."
     ]
-  },
-  {
-    "title": "Game Time",
-    "subtitle": "Games",
-    "dates": "2008 - 2012",
-    "languages": ["ActionScript"],
-    "description": [
-      "While learning to program I wrote several games with Flash and ActionScript.",
-      "<p class=\"m-0\"><a href=\"https://github.com/RhysBower/TheUnbeatableTest\" target=\"_blank\">The Unbeatable Test</a> Can you make it to the end alive?</p>",
-      "<p class=\"m-0\"><a href=\"https://github.com/RhysBower/FluffyBall\" target=\"_blank\">Fluffy Ball</a> Help Fluffy Ball bounce his way to freedom.</p>",
-      "<p class=\"m-0\"><a href=\"https://github.com/RhysBower/UfoRide2\" target=\"_blank\">UFO Ride 2</a> It looks like the alien has gotten himself into trouble again. Save him from the asteroids again or all of your hard work will be lost. As least his ship has a shield this time.</p>",
-      "<p class=\"m-0\"><a href=\"https://github.com/RhysBower/UfoRide\" target=\"_blank\">UFO Ride</a> Help the alien avoid the asteroids while collecting money and diamonds.</p>"
-    ]
   }
 ]
