@@ -1,20 +1,22 @@
 <div class="col-md-6 pb-3">
   <div class="card">
     {% if include.project.img %}
-      <img class="card-img-top img-fluid" src="{{ site.url }}/{{ include.project.img }}" srcset="{{site.url}}/{{ include.project.img2x }} 1076w" alt="{{ include.project.img-alt }}">
-      <div class="card-img-overlay card-inverse">
+      <img class="card-img img-fluid" src="{{ site.url }}/{{ include.project.img }}" srcset="{{site.url}}/{{ include.project.img2x }} 1076w" alt="{{ include.project.img-alt }}">
+      <div class="card-img-overlay">
+          <h2 class="card-title text-white">{{ include.project.title }}</h2>
+          <h4 class="card-subtitle text-muted">{{ include.project.subtitle }}</h4>
     {% else %}
-      <div class="card-block">
+      <div class="card-body">
+          <h2 class="card-title">{{ include.project.title }}</h2>
+          <h4 class="card-subtitle text-muted">{{ include.project.subtitle }}</h4>
     {% endif %}
-      <h2 class="card-title">{{ include.project.title }}</h2>
-      <h4 class="card-subtitle">{{ include.project.subtitle }}</h4>
     </div>
-    <div class="card-block">
+    <div class="card-body">
       <div class="row">
-        <div class="col-sm-5 push-sm-7 text-sm-right col-md-12 push-md-0 text-md-left col-lg-5 push-lg-7 text-lg-right">
+        <div class="col-sm-5 order-sm-7 text-sm-right col-md-12 order-md-0 text-md-left col-lg-5 order-lg-7 text-lg-right">
           <p class="card-text"><small class="text-muted">{{ include.project.dates }}</small></p>
         </div>
-        <div class="col-sm-7 pull-sm-5 col-md-12 pull-md-0 col-lg-7 pull-lg-5">
+        <div class="col-sm-7 order-sm-5 col-md-12 order-md-0 col-lg-7 order-lg-5">
           {% for language in include.project.languages %}
             <span class="badge badge-default badge-pill {{ language | downcase }}">{{ language }}</span>
           {% endfor %}
@@ -27,7 +29,7 @@
       {% endfor %}
     </ul>
     {% if include.project.links %}
-      <div class="card-block">
+      <div class="card-body">
         {% for link in include.project.links %}
           <a href="{{ link.url }}" target="_blank" rel="noopener" class="card-link">{{ link.title }}</a>
         {% endfor %}
