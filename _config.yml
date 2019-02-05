@@ -1,4 +1,5 @@
 url: "https://www.rhysbower.com"
+tagline: "Coding for social change"
 exclude: [README.md, original, Gemfile, Gemfile.lock, CNAME]
 env: "prod"
 sass:
